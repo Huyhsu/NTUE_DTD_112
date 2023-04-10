@@ -1,131 +1,133 @@
-<body>
-  <section class="portfolio-work pt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-block">
-            <div class="row portfolio-menu mb-5">
-              <div
-                class="btn-group"
-                role="group"
-                aria-label="Basic radio toggle button group"
-              >
-                <div class="col-md-12 text-center">
-                  <!-- All -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="all"
-                    class="btn-check"
-                    value="all"
-                    checked
-                  />
-                  <label class="btn btn-md btn-secondary" for="all">
-                    全部
-                  </label>
-                  <!-- Game -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="game"
-                    autocomplete="off"
-                    class="btn-check"
-                    value="game"
-                  />
-                  <label class="btn btn-md btn-secondary" for="game">
-                    遊戲
-                  </label>
-                  <!-- Animation -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="animation"
-                    autocomplete="off"
-                    class="btn-check"
-                    value="animation"
-                  />
-                  <label class="btn btn-md btn-secondary" for="animation">
-                    動畫
-                  </label>
-                  <!-- Website -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="website"
-                    autocomplete="off"
-                    class="btn-check"
-                    value="website"
-                  />
-                  <label class="btn btn-md btn-secondary" for="website">
-                    網頁
-                  </label>
-                  <!-- App -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="app"
-                    autocomplete="off"
-                    class="btn-check"
-                    value="app"
-                  />
-                  <label class="btn btn-md btn-secondary" for="app">
-                    行動程式
-                  </label>
-                  <!-- Plan -->
-                  <input
-                    type="radio"
-                    name="shuffle-filter"
-                    id="plan"
-                    autocomplete="off"
-                    class="btn-check"
-                    value="plan"
-                  />
-                  <label class="btn btn-md btn-secondary" for="plan">
-                    互動式企劃
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div class="row shuffle-wrapper shuffle">
-              <% for(var i=0; i< projects.length; i++){ %>
-              <div
-                class="col-md-4 portfolio-item shuffle-item"
-                data-groups='["<%-projects[i].type %>"]'
-              >
-                <div class="d-block hz-240 p-1">
-                  <img
-                    class="object-fit-cover"
-                    src="<%-projects[i].projectCover %>"
-                    alt="<%-projects[i].projectName %>"
-                  />
-                  <div class="portfolio-hover">
-                    <div class="portfolio-content">
-                      <a href="/project/<%-projects[i].team %>"
-                        ><%-projects[i].projectName %></a
-                      >
-                      <p><%-projects[i].projectIntro %></p>
-                    </div>
+<main>
+  <body>
+    <section class="portfolio-work pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-block">
+              <div class="row portfolio-menu mb-5">
+                <div
+                  class="btn-group"
+                  role="group"
+                  aria-label="Basic radio toggle button group"
+                >
+                  <div class="col-md-12 text-center">
+                    <!-- All -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="all"
+                      class="btn-check"
+                      value="all"
+                      checked
+                    />
+                    <label class="btn btn-md btn-secondary" for="all">
+                      全部
+                    </label>
+                    <!-- Game -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="game"
+                      autocomplete="off"
+                      class="btn-check"
+                      value="game"
+                    />
+                    <label class="btn btn-md btn-secondary" for="game">
+                      遊戲
+                    </label>
+                    <!-- Animation -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="animation"
+                      autocomplete="off"
+                      class="btn-check"
+                      value="animation"
+                    />
+                    <label class="btn btn-md btn-secondary" for="animation">
+                      動畫
+                    </label>
+                    <!-- Website -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="website"
+                      autocomplete="off"
+                      class="btn-check"
+                      value="website"
+                    />
+                    <label class="btn btn-md btn-secondary" for="website">
+                      網頁
+                    </label>
+                    <!-- App -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="app"
+                      autocomplete="off"
+                      class="btn-check"
+                      value="app"
+                    />
+                    <label class="btn btn-md btn-secondary" for="app">
+                      行動程式
+                    </label>
+                    <!-- Plan -->
+                    <input
+                      type="radio"
+                      name="shuffle-filter"
+                      id="plan"
+                      autocomplete="off"
+                      class="btn-check"
+                      value="plan"
+                    />
+                    <label class="btn btn-md btn-secondary" for="plan">
+                      互動式企劃
+                    </label>
                   </div>
                 </div>
               </div>
-              <% } %>
+              <div class="row shuffle-wrapper shuffle">
+                <% for(var i=0; i< projects.length; i++){ %>
+                <div
+                  class="col-md-4 portfolio-item shuffle-item"
+                  data-groups='["<%-projects[i].type %>"]'
+                >
+                  <div class="d-block hz-240 p-1">
+                    <img
+                      class="object-fit-cover"
+                      src="<%-projects[i].projectCover %>"
+                      alt="<%-projects[i].projectName %>"
+                    />
+                    <div class="portfolio-hover">
+                      <div class="portfolio-content">
+                        <a href="/project/<%-projects[i].team %>"
+                          ><%-projects[i].projectName %></a
+                        >
+                        <p><%-projects[i].projectIntro %></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <% } %>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <% layout("layout") %>
+    <% layout("layout") %>
 
-  <!-- Jquery -->
-  <script
-    src="https://code.jquery.com/jquery-3.6.4.min.js"
-    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
-    crossorigin="anonymous"
-  ></script>
-  <!-- Shuffle -->
-  <script src="https://unpkg.com/shufflejs@6.1.0/dist/shuffle.js"></script>
-  <!-- Project js -->
-  <script src="/js/project.js"></script>
-</body>
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Shuffle -->
+    <script src="https://unpkg.com/shufflejs@6.1.0/dist/shuffle.js"></script>
+    <!-- Project js -->
+    <script src="/js/project.js"></script>
+  </body>
+</main>
