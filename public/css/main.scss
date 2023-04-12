@@ -71,10 +71,19 @@ a{
   object-fit: contain;
 }
 
+.justify-self-center
+{
+  justify-self: center;
+}
+
 // middle
 @media (max-width:767px){
   .res-md-hz-276 {
     height: 276px;
+  }
+
+  .res-sm-wz-100p {
+    width: 100%;
   }
 }
 
