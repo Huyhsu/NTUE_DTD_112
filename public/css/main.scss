@@ -66,6 +66,11 @@ a{
   object-position: center center;
 }
 
+.object-fit-contain
+{
+  object-fit: contain;
+}
+
 // middle
 @media (max-width:767px){
   .res-md-hz-276 {
