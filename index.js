@@ -3,12 +3,16 @@ const ejs = require("ejs");
 const path = require("path");
 const engine = require("ejs-locals");
 const app = express();
+const favicon = require("serve-favicon");
 
 // Projects json data
 const projects = require(__dirname + "/public/json/projects.json");
 
 // Public Folder
 app.use(express.static(__dirname + "/public"));
+// app.use(express.favicon(__dirname + "/public/main/favicon.ico"));
+
+app.use(favicon(path.join(__dirname + "/public/img/main/favicon.ico")));
 
 // Ejs Settings
 app.engine("ejs", engine);
