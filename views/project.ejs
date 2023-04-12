@@ -1,13 +1,13 @@
 <main class="min-hz-90vh">
   <body>
-    <section class="portfolio-work pt-5">
+    <section class="portfolio-work pt-2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="d-block">
-              <div class="row portfolio-menu mb-5">
+              <div class="row portfolio-menu mb-2">
                 <div
-                  class="btn-group"
+                  class="btn-group justify-content-center"
                   role="group"
                   aria-label="Basic radio toggle button group"
                 >
@@ -21,7 +21,10 @@
                       value="all"
                       checked
                     />
-                    <label class="btn btn-md btn-secondary" for="all">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="all"
+                    >
                       全部
                     </label>
                     <!-- Game -->
@@ -33,7 +36,10 @@
                       class="btn-check"
                       value="game"
                     />
-                    <label class="btn btn-md btn-secondary" for="game">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="game"
+                    >
                       遊戲
                     </label>
                     <!-- Animation -->
@@ -45,7 +51,10 @@
                       class="btn-check"
                       value="animation"
                     />
-                    <label class="btn btn-md btn-secondary" for="animation">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="animation"
+                    >
                       動畫
                     </label>
                     <!-- Website -->
@@ -57,7 +66,10 @@
                       class="btn-check"
                       value="website"
                     />
-                    <label class="btn btn-md btn-secondary" for="website">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="website"
+                    >
                       網頁
                     </label>
                     <!-- App -->
@@ -69,7 +81,10 @@
                       class="btn-check"
                       value="app"
                     />
-                    <label class="btn btn-md btn-secondary" for="app">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="app"
+                    >
                       行動程式
                     </label>
                     <!-- Plan -->
@@ -81,12 +96,16 @@
                       class="btn-check"
                       value="plan"
                     />
-                    <label class="btn btn-md btn-secondary" for="plan">
+                    <label
+                      class="btn btn-md btn-secondary fz-16 mb-2"
+                      for="plan"
+                    >
                       互動式企劃
                     </label>
                   </div>
                 </div>
               </div>
+              <hr class="hr mb-4" />
               <div class="row shuffle-wrapper shuffle">
                 <% for(var i=0; i< projects.length; i++){ %>
                 <div
@@ -95,7 +114,7 @@
                 >
                   <div class="d-block hz-240 p-1">
                     <img
-                      class="object-fit-cover"
+                      class="object-fit-contain w-100 h-100"
                       src="<%-projects[i].projectCover %>"
                       alt="<%-projects[i].projectName %>"
                     />

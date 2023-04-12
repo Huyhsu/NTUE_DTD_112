@@ -17,7 +17,6 @@ ul {
 
 a {
   cursor: pointer;
-  font-size: 24px;
   text-decoration: none;
 }
 
@@ -41,12 +40,28 @@ a {
   height: 400px;
 }
 
+.fz-12 {
+  font-size: 12px;
+}
+
 .fz-16 {
   font-size: 16px;
 }
 
+.fz-24 {
+  font-size: 24px;
+}
+
 .fz-26 {
   font-size: 26px;
+}
+
+.fz-36 {
+  font-size: 36px;
+}
+
+.fz-48 {
+  font-size: 48px;
 }
 
 .min-hz-90vh {
@@ -69,10 +84,6 @@ a {
      object-fit: contain;
 }
 
-.justify-self-center {
-  justify-self: center;
-}
-
 @media (max-width: 767px) {
   .res-md-hz-276 {
     height: 276px;
@@ -90,14 +101,38 @@ a {
   color: #2c2c2c;
 }
 
-.portfolio-item img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  justify-content: center;
-  display: flex;
-  -o-object-fit: contain;
-     object-fit: contain;
+.project-link:hover {
+  color: #5c67a2 !important;
+}
+
+.portfolio-menu .btn {
+  color: #2c2c2c;
+  background-color: #fcfcfc;
+  border: 1px solid #acb9c4;
+}
+
+.portfolio-menu .btn:hover {
+  background-color: #e6e9ff;
+}
+
+.btn-check:checked + .btn {
+  background-color: #5c67a2 !important;
+}
+
+.portfolio-menu .btn-group .active {
+  background-color: #5c67a2 !important;
+}
+
+.btn-secondary:checked {
+  background-color: #5c67a2 !important;
+}
+
+.btn-secondary:active {
+  background-color: #5c67a2 !important;
+}
+
+.btn-secondary:visited {
+  background-color: #5c67a2 !important;
 }
 
 .portfolio-item:hover .portfolio-hover {
