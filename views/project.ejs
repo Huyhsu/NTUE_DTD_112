@@ -1,11 +1,11 @@
-<main class="min-hz-90vh">
+<main class="min-hz-100vh">
   <body>
     <section class="portfolio-work pt-2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="d-block">
-              <div class="row portfolio-menu mb-2">
+              <div class="row portfolio-menu mb-4">
                 <div
                   class="btn-group justify-content-center"
                   role="group"
@@ -105,14 +105,14 @@
                   </div>
                 </div>
               </div>
-              <hr class="hr mb-4" />
+              <!-- <hr class="hr mb-4" /> -->
               <div class="row shuffle-wrapper shuffle">
                 <% for(var i=0; i< projects.length; i++){ %>
                 <div
                   class="col-md-4 portfolio-item shuffle-item"
                   data-groups='["<%-projects[i].type %>"]'
                 >
-                  <div class="d-block hz-240 p-1">
+                  <div class="d-block hz-240 p-1 w-100">
                     <img
                       class="object-fit-contain w-100 h-100"
                       src="<%-projects[i].projectCover %>"
@@ -120,10 +120,14 @@
                     />
                     <div class="portfolio-hover">
                       <div class="portfolio-content">
-                        <a href="/project/<%-projects[i].team %>"
+                        <a
+                          class="fz-26 text-white w-50"
+                          href="/project/<%-projects[i].team %>"
                           ><%-projects[i].projectName %></a
                         >
-                        <p><%-projects[i].projectIntro %></p>
+                        <p class="fz-16 text-white">
+                          <%-projects[i].projectIntro %>
+                        </p>
                       </div>
                     </div>
                   </div>

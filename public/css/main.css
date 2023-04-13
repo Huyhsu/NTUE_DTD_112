@@ -64,8 +64,8 @@ a {
   font-size: 48px;
 }
 
-.min-hz-90vh {
-  min-height: 90vh;
+.min-hz-100vh {
+  min-height: 100vh;
 }
 
 .overflow-hidden {
@@ -101,38 +101,54 @@ a {
   color: #2c2c2c;
 }
 
+.project-link {
+  position: relative;
+  border: 1px solid #2c2c2c;
+  border-radius: 2px;
+}
+
 .project-link:hover {
   color: #5c67a2 !important;
+  border: 1px solid #5c67a2;
+}
+
+.project-link:hover::before {
+  transform: scaleX(1);
+}
+
+/* Animate the line from the left */
+.project-link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #5c67a2;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
 }
 
 .portfolio-menu .btn {
   color: #2c2c2c;
   background-color: #fcfcfc;
   border: 1px solid #acb9c4;
+  transition: all 0.3s ease;
 }
 
-.portfolio-menu .btn:hover {
-  background-color: #e6e9ff;
+.portfolio-menu .btn:not(.btn-check:checked + .btn):hover {
+  background-color: #fcfcfc;
+  color: #5c67a2;
 }
 
-.btn-check:checked + .btn {
+.portfolio-menu .btn-check:checked + .btn {
   background-color: #5c67a2 !important;
 }
 
-.portfolio-menu .btn-group .active {
-  background-color: #5c67a2 !important;
-}
-
-.btn-secondary:checked {
-  background-color: #5c67a2 !important;
-}
-
-.btn-secondary:active {
-  background-color: #5c67a2 !important;
-}
-
-.btn-secondary:visited {
-  background-color: #5c67a2 !important;
+.portfolio-item {
+  position: relative;
 }
 
 .portfolio-item:hover .portfolio-hover {
@@ -149,8 +165,10 @@ a {
   height: 100%;
   width: 100%;
   top: 0;
+  bottom: 0;
+  right: 0;
   left: 0;
-  background: rgba(60, 55, 55, 0.5);
+  background: rgba(19, 19, 19, 0.6);
   visibility: hidden;
   opacity: 0;
   transition: 0.3s ease;
@@ -165,21 +183,4 @@ a {
   text-align: center;
   padding: 20px;
   transition: inherit;
-}
-
-.portfolio-content * {
-  color: #fff;
-}
-
-.portfolio-content a {
-  display: block;
-  transition: 0.2s ease;
-}
-
-.portfolio-content a i {
-  font-size: 30px;
-}
-
-.portfolio-content a.h3 {
-  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */
