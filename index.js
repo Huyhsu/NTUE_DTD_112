@@ -35,6 +35,7 @@ for (let i = 0; i < projects.length; i++) {
     res.render("team.ejs", {
       title: projects[i].projectName,
       project: projects[i].projectDetails,
+      cover: projects[i].projectCover,
     });
   });
 }
