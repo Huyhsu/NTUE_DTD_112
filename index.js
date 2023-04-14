@@ -21,7 +21,7 @@ app.set("view engine", "ejs");
 
 // Home page
 app.get("/", (req, res) => {
-  res.render("index.ejs", { title: "首頁" });
+  res.render("index.ejs", { title: "拾元宇宙" });
 });
 
 // Project page
@@ -39,6 +39,14 @@ for (let i = 0; i < projects.length; i++) {
     });
   });
 }
+
+// 404 page
+app.get("*", (req, res) => {
+  res.status(404);
+  res.render("notFound.ejs", {
+    title: "找不到您要的內容",
+  });
+});
 
 // Localhost
 app.listen(5500, () => {
