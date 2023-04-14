@@ -10,8 +10,24 @@
     "projectDetails": {
       "name": "焦土的旅居者",
       "introduction": "2D俯瞰視角末日風格的開放探索遊戲。以蒐集相片為核心主軸，將相片加以分析來獲得關於生物與地標的資訊。尋找這片土地上的人類生存的遺址。",
-      "members": [{ "name": "陳宜禾" }, { "name": "金立" }],
-      "instructor": "許一珍"
+      "members": [
+        {
+          "name": "陳宜禾",
+          "photo": "/img/projects/team1/team1_photo_1",
+          "position": ""
+        },
+        {
+          "name": "金立",
+          "photo": "/img/projects/team1/team1_photo_2",
+          "position": ""
+        }
+      ],
+      "instructor": "許一珍",
+      "preview": [
+        "/img/projects/team1/team1_preview_1.png",
+        "/img/projects/team1/team1_preview_2.png",
+        "/img/projects/team1/team1_preview_3.png"
+      ]
     }
   },
   {
@@ -24,8 +40,24 @@
     "projectDetails": {
       "name": "雙喜臨門",
       "introduction": "2D動畫。以兩位性格迥異的角色，嚴謹的醫師與隨興的藝術大學學生成為鄰居的日常。然而，在互相衝突與相處的平凡生活中，兩人似乎都在隱瞞著什麼……",
-      "members": [{ "name": "曾憶如" }, { "name": "蔡其珈" }],
-      "instructor": "許一珍"
+      "members": [
+        {
+          "name": "曾憶如",
+          "photo": "/img/projects/team2/team2_photo_1",
+          "position": ""
+        },
+        {
+          "name": "蔡其珈",
+          "photo": "/img/projects/team2/team2_photo_2",
+          "position": ""
+        }
+      ],
+      "instructor": "許一珍",
+      "preview": [
+        "/img/projects/team2/team2_preview_1.png",
+        "/img/projects/team2/team2_preview_2.png",
+        "/img/projects/team2/team2_preview_3.png"
+      ]
     }
   },
   {
@@ -37,9 +69,20 @@
     "type": "game",
     "projectDetails": {
       "name": "撲克巫師盃",
-      "introduction": "以騎掃帚的巫師取代賽車的單機多人3D競速遊戲，會連接ps4搖桿，玩法類似瑪莉歐賽車，以咒語取代其道具系統",
-      "members": [{ "name": "謝博帆" }],
-      "instructor": "林仁智"
+      "introduction": "以騎掃帚的巫師取代賽車的單機多人3D競速遊戲，會連接ps4搖桿，玩法類似瑪莉歐賽車，以咒語取代其道具系統。",
+      "members": [
+        {
+          "name": "謝博帆",
+          "photo": "/img/projects/team3/team3_photo_1",
+          "position": ""
+        }
+      ],
+      "instructor": "林仁智",
+      "preview": [
+        "/img/projects/team3/team3_preview_1.png",
+        "/img/projects/team3/team3_preview_2.png",
+        "/img/projects/team3/team3_preview_3.png"
+      ]
     }
   },
   {
@@ -53,12 +96,33 @@
       "name": "L00KER 錄刻爾",
       "introduction": "角色IP經營。我們創立虛擬角色與其世界觀，建築一個打破封閉思想、推翻傳統印象的無性別平等社會。透過instagarm等媒體社群與人互動，呈現虛實融合的互動體驗。",
       "members": [
-        { "name": "陳昱潔" },
-        { "name": "洪映佳" },
-        { "name": "林庭儀" },
-        { "name": "王郁涵" }
+        {
+          "name": "陳昱潔",
+          "photo": "/img/projects/team4/team4_photo_1",
+          "position": ""
+        },
+        {
+          "name": "洪映佳",
+          "photo": "/img/projects/team4/team4_photo_2",
+          "position": ""
+        },
+        {
+          "name": "林庭儀",
+          "photo": "/img/projects/team4/team4_photo_3",
+          "position": ""
+        },
+        {
+          "name": "王郁涵",
+          "photo": "/img/projects/team4/team4_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "盧姝如"
+      "instructor": "盧姝如",
+      "preview": [
+        "/img/projects/team4/team4_preview_1.png",
+        "/img/projects/team4/team4_preview_2.png",
+        "/img/projects/team4/team4_preview_3.png"
+      ]
     }
   },
   {
@@ -71,8 +135,24 @@
     "projectDetails": {
       "name": "FIELD",
       "introduction": "有別於市場上懸疑/精神疾病題材的呈現方式，我們結合影像敘事技巧和網頁互動架構，打造沉浸式劇情體驗。解離性人格障礙，俗稱多重人格。《FIELD》帶領使用者進入患者的世界，斷片、不穩定、恐懼、心理陰影、外在現實、內在世界...，到底...誰是誰?推開病症的汙名化，我們邀請您進入他/她/它的「領域」。",
-      "members": [{ "name": "鄭朝璣" }, { "name": "林渝珊" }],
-      "instructor": "俞齊山"
+      "members": [
+        {
+          "name": "鄭朝璣",
+          "photo": "/img/projects/team5/team5_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林渝珊",
+          "photo": "/img/projects/team5/team5_photo_2",
+          "position": ""
+        }
+      ],
+      "instructor": "俞齊山",
+      "preview": [
+        "/img/projects/team5/team5_preview_1.png",
+        "/img/projects/team5/team5_preview_2.png",
+        "/img/projects/team5/team5_preview_3.png"
+      ]
     }
   },
   {
@@ -85,8 +165,24 @@
     "projectDetails": {
       "name": "虩（ㄒㄧˋ）",
       "introduction": "2D&3D動畫。相傳在虎形山上，住著隻老虎精，守護著當地居民，後來卻因交通工程的開挖而死亡。希望能以台灣民間傳說，帶出環境開發，與生態保育的議題。",
-      "members": [{ "name": "曾傳芸" }, { "name": "林妤臻" }],
-      "instructor": "盧姝如"
+      "members": [
+        {
+          "name": "曾傳芸",
+          "photo": "/img/projects/team6/team6_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林妤臻",
+          "photo": "/img/projects/team6/team6_photo_2",
+          "position": ""
+        }
+      ],
+      "instructor": "盧姝如",
+      "preview": [
+        "/img/projects/team6/team6_preview_1.png",
+        "/img/projects/team6/team6_preview_2.png",
+        "/img/projects/team6/team6_preview_3.png"
+      ]
     }
   },
   {
@@ -100,12 +196,33 @@
       "name": "復甦之地",
       "introduction": "以神使、妖怪打造出充滿古日本風情的3D冒險遊戲。結合RPG，玩家可以盡情的探索遊戲世界、觸發任務關卡，享受打怪、收集神使的玩家生活。",
       "members": [
-        { "name": "方雁" },
-        { "name": "林思彤" },
-        { "name": "宋雨函" },
-        { "name": "楊珈綺" }
+        {
+          "name": "方雁",
+          "photo": "/img/projects/team7/team7_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林思彤",
+          "photo": "/img/projects/team7/team7_photo_2",
+          "position": ""
+        },
+        {
+          "name": "宋雨函",
+          "photo": "/img/projects/team7/team7_photo_3",
+          "position": ""
+        },
+        {
+          "name": "楊珈綺",
+          "photo": "/img/projects/team7/team7_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "范丙林"
+      "instructor": "范丙林",
+      "preview": [
+        "/img/projects/team7/team7_preview_1.png",
+        "/img/projects/team7/team7_preview_2.png",
+        "/img/projects/team7/team7_preview_3.png"
+      ]
     }
   },
   {
@@ -120,12 +237,33 @@
       "name": "伏心訣",
       "introduction": "一個關於東方驅魔師與靈鬼之間的故事。主角楚霄因深仇大恨誓要滅盡天下靈鬼，這一切卻在遇到一個鬼後產生了改變......2D橫向類惡魔城遊戲，操作遊戲角色於地圖中進行探索，玩家須透過''切換角色''搭配''術式及天賦系統''突破地圖中的種種障礙、以類解謎的方式使劇情和地圖開展。",
       "members": [
-        { "name": "許弘陽" },
-        { "name": "羅昱" },
-        { "name": "陳宥豪" },
-        { "name": "李堂瑞" }
+        {
+          "name": "許弘陽",
+          "photo": "/img/projects/team8/team8_photo_1",
+          "position": "程式"
+        },
+        {
+          "name": "羅昱",
+          "photo": "/img/projects/team8/team8_photo_2",
+          "position": ""
+        },
+        {
+          "name": "陳宥豪",
+          "photo": "/img/projects/team8/team8_photo_3",
+          "position": "美術"
+        },
+        {
+          "name": "李堂瑞",
+          "photo": "/img/projects/team8/team8_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "巴白山"
+      "instructor": "巴白山",
+      "preview": [
+        "/img/projects/team8/team8_preview_1.png",
+        "/img/projects/team8/team8_preview_2.png",
+        "/img/projects/team8/team8_preview_3.png"
+      ]
     }
   },
   {
@@ -140,12 +278,33 @@
       "name": "風之奏鳴：四季花音",
       "introduction": "在島上蒐集物資，生存並尋找音樂盒消失的真相。玩家不但可以彈奏樂器安撫怪物、製作樂器、建造、譜曲，還可以養殖安撫後的生物支持最多4人同島遊玩",
       "members": [
-        { "name": "陳彥融" },
-        { "name": "林昭成" },
-        { "name": "顏嘉鈺" },
-        { "name": "王思喬" }
+        {
+          "name": "陳彥融",
+          "photo": "/img/projects/team9/team9_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林昭成",
+          "photo": "/img/projects/team9/team9_photo_2",
+          "position": ""
+        },
+        {
+          "name": "顏嘉鈺",
+          "photo": "/img/projects/team9/team9_photo_3",
+          "position": ""
+        },
+        {
+          "name": "王思喬",
+          "photo": "/img/projects/team9/team9_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "范丙林"
+      "instructor": "范丙林",
+      "preview": [
+        "/img/projects/team9/team9_preview_1.png",
+        "/img/projects/team9/team9_preview_2.png",
+        "/img/projects/team9/team9_preview_3.png"
+      ]
     }
   },
   {
@@ -160,12 +319,33 @@
       "name": "城市異旅",
       "introduction": "2D橫向卷軸冒險解謎遊戲。擁有特殊能力的偵探與小孩二人互相合作，想辦法在這座充滿謎團與危險的城市中逃出生天。",
       "members": [
-        { "name": "李昀臻" },
-        { "name": "林筱晏" },
-        { "name": "林嘉愉" },
-        { "name": "程郁慈" }
+        {
+          "name": "李昀臻",
+          "photo": "/img/projects/team10/team10_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林筱晏",
+          "photo": "/img/projects/team10/team10_photo_2",
+          "position": ""
+        },
+        {
+          "name": "林嘉愉",
+          "photo": "/img/projects/team10/team10_photo_3",
+          "position": ""
+        },
+        {
+          "name": "程郁慈",
+          "photo": "/img/projects/team10/team10_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "王學武"
+      "instructor": "王學武",
+      "preview": [
+        "/img/projects/team10/team10_preview_1.png",
+        "/img/projects/team10/team10_preview_2.png",
+        "/img/projects/team10/team10_preview_3.png"
+      ]
     }
   },
   {
@@ -179,12 +359,33 @@
       "name": "DTD Inc.",
       "introduction": "一款主打友情破壞、互相競爭、技能有趣的3D連線友誼破壞派對遊戲。玩家與玩家在時間內互相搶奪金幣、施放技能阻礙對手來產生樂趣，以及在為目標充滿有趣豐富的角色設定。",
       "members": [
-        { "name": "魯心耘" },
-        { "name": "林郁盛" },
-        { "name": "林緯宸" },
-        { "name": "劉曜誠" }
+        {
+          "name": "魯心耘",
+          "photo": "/img/projects/team11/team11_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林郁盛",
+          "photo": "/img/projects/team11/team11_photo_2",
+          "position": ""
+        },
+        {
+          "name": "林緯宸",
+          "photo": "/img/projects/team11/team11_photo_3",
+          "position": ""
+        },
+        {
+          "name": "劉曜誠",
+          "photo": "/img/projects/team11/team11_photo_4",
+          "position": ""
+        }
       ],
-      "instructor": "王學武"
+      "instructor": "王學武",
+      "preview": [
+        "/img/projects/team11/team11_preview_1.png",
+        "/img/projects/team11/team11_preview_2.png",
+        "/img/projects/team11/team11_preview_3.png"
+      ]
     }
   },
   {
@@ -198,11 +399,28 @@
       "name": "Minimal",
       "introduction": "一個專注於獨立開發商品的網購與品牌經營平台，以非傳統與多元平台功能為特色，目的在於提供使用者一個優良的設計商品購物體驗，並使獨立創作者與設計師有一個舒適的空間及管道發展自己的品牌並經營自己的事業。",
       "members": [
-        { "name": "許靖宜" },
-        { "name": "蔡鈺昕" },
-        { "name": "陳亮禎" }
+        {
+          "name": "許靖宜",
+          "photo": "/img/projects/team12/team12_photo_1",
+          "position": ""
+        },
+        {
+          "name": "蔡鈺昕",
+          "photo": "/img/projects/team12/team12_photo_2",
+          "position": ""
+        },
+        {
+          "name": "陳亮禎",
+          "photo": "/img/projects/team12/team12_photo_3",
+          "position": ""
+        }
       ],
-      "instructor": "巴白山"
+      "instructor": "巴白山",
+      "preview": [
+        "/img/projects/team12/team12_preview_1.png",
+        "/img/projects/team12/team12_preview_2.png",
+        "/img/projects/team12/team12_preview_3.png"
+      ]
     }
   },
   {
@@ -215,8 +433,24 @@
     "projectDetails": {
       "name": "9Knights",
       "introduction": "針對機車族群開發的多功能約騎社群平台。有別於一般揪團平台，除了可以讓使用者自由揪團外，同時整合定位與對講功能，希望使用者能夠以車會友，並且擁有更加安全且有趣的旅程。",
-      "members": [{ "name": "余羿辰" }, { "name": "林姵綺" }],
-      "instructor": "俞齊山"
+      "members": [
+        {
+          "name": "余羿辰",
+          "photo": "/img/projects/team13/team13_photo_1",
+          "position": ""
+        },
+        {
+          "name": "林姵綺",
+          "photo": "/img/projects/team13/team13_photo_2",
+          "position": ""
+        }
+      ],
+      "instructor": "俞齊山",
+      "preview": [
+        "/img/projects/team13/team13_preview_1.png",
+        "/img/projects/team13/team13_preview_2.png",
+        "/img/projects/team13/team13_preview_3.png"
+      ]
     }
   }
 ]

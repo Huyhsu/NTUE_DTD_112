@@ -32,38 +32,56 @@
                 ></button>
               </div>
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <!-- <div class="carousel-item active">
                   <img
-                    class="d-block w-100 object-fit-contain res-md-hz-260 hz-500 bg-light"
-                    src="/img/main/test_content.png"
+                    class="img-fluid bg-light"
+                    src="/img/main/test/test_content_1.png"
                     alt="Slide 1"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-100 object-fit-contain res-md-hz-260 hz-500 bg-light"
-                    src="/img/main/test_content.png"
+                    class="img-fluid bg-light"
+                    src="/img/main/test/test_content_2.png"
                     alt="Slide 2"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    class="d-block w-100 object-fit-contain res-md-hz-260 hz-500 bg-light"
-                    src="/img/main/test_content.png"
+                    class="img-fluid bg-light"
+                    src="/img/main/test/test_content_3.png"
                     alt="Slide 3"
                   />
+                </div> -->
+
+                <% for(var i=0; i< project.preview.length; i++){ %> <% if (i ==
+                0) { %>
+                <div class="carousel-item active">
+                  <img
+                    class="img-fluid bg-light"
+                    src="<%=project.preview[i]%>"
+                    alt="Slide <%=i+1%>"
+                  />
                 </div>
+                <%} else {%>
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid bg-light"
+                    src="<%=project.preview[i]%>"
+                    alt="Slide <%=i+1%>"
+                  />
+                </div>
+                <%}%> <%}%>
               </div>
             </div>
           </div>
           <div class="col-xl-4 pt-2 justify-content-between d-flex flex-column">
             <div class="d-block pb-4">
-              <p class="fz-26 font-weight-bold pt-2"><%= project.name %></p>
+              <p class="fz-26 fw-bold pt-2"><%= project.name %></p>
               <p>
                 作品簡介：<br />
                 &emsp;&emsp;<%= project.introduction %>
               </p>
-              <!-- <p class="fz-16"><%= project.introduction %></p> -->
             </div>
             <div class="d-block">
               <p>
@@ -91,19 +109,16 @@
       <div class="container py-4">
         <% for(var i=0; i< project.members.length; i++){ %>
         <div class="row py-4 mt-4">
-          <div class="col-lg-3">
-            <p class="d-block bg-light">
-              <img
-                class="d-block w-100 object-fit-contain hz-240"
-                src="/img/main/test_person_2.png"
-              />
-            </p>
+          <div class="col-lg-3 pb-2 d-flex justify-content-center">
+            <div class="bg-light wz-210 overflow-hidden">
+              <img class="img-fluid" src="/img/main/test/test_person_2.png" />
+            </div>
           </div>
           <div class="col-lg-9">
             <div class="d-block">
               <p class="fz-26"><%-project.members[i].name %></p>
               <hr class="hr" />
-              <p class="fz-16">職位：?</p>
+              <p class="fz-16">職位：<%-project.members[i].position %></p>
               <p class="fz-16">聯絡方式：?</p>
               <p class="fz-16">專長：?</p>
             </div>
