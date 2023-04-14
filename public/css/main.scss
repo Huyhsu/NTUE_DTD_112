@@ -42,7 +42,27 @@ a{
   width: 240px;
 }
 
+.wz-250 {
+  width: 250px;
+}
+
 // Height
+.hz-40 {
+  height: 40px;
+}
+
+.hz-60 {
+  height: 60px;
+}
+
+.hz-70 {
+  height: 70px;
+}
+
+.hz-160 {
+  height: 160px;
+}
+
 .hz-200 {
   height: 200px;
 }
@@ -146,6 +166,11 @@ a{
   .res-sm-wz-100p {
     width: 100%;
   }
+
+  .w-md-100 {
+    width: 100%;
+  }
+
 }
 
 // Small
@@ -157,7 +182,10 @@ a{
   .res-sm-hz-200 {
     height: 200px;
   }
+
+
 }
+
 
 // Header ==================================================
 

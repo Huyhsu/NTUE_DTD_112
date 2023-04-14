@@ -1,8 +1,8 @@
 <main class="min-hz-100vh">
   <body>
     <section class="pb-4">
-      <div class="container pb-4">
-        <div class="row pb-4">
+      <div class="container">
+        <div class="row">
           <div class="col-xl-8 pt-2">
             <div
               id="carouselExampleIndicators"
@@ -78,13 +78,13 @@
           <div class="col-xl-4 pt-2 justify-content-between d-flex flex-column">
             <div class="d-block pb-4">
               <p class="fz-26 fw-bold pt-2"><%= project.name %></p>
-              <p>
+              <p class="lh-lg">
                 作品簡介：<br />
                 &emsp;&emsp;<%= project.introduction %>
               </p>
             </div>
             <div class="d-block">
-              <p>
+              <p class="">
                 組員：<% for(var i=0; i< project.members.length; i++){%><%
                 if(i==project.members.length-1) { %><%=project.members[i].name
                 %><% } else { %><%=project.members[i].name %>, <%}%><%}%>
@@ -106,25 +106,29 @@
       </div>
     </section>
     <section class="pt-4">
-      <div class="container py-4">
-        <% for(var i=0; i< project.members.length; i++){ %>
-        <div class="row py-4 mt-4">
-          <div class="col-lg-3 pb-2 d-flex justify-content-center">
-            <div class="bg-light wz-210 overflow-hidden">
-              <img class="img-fluid" src="/img/main/test/test_person_2.png" />
+      <div class="container">
+        <div class="row mt-4">
+          <% for(var i=0; i< project.members.length; i++){ %>
+          <div
+            class="col-lg-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-5 pt-sm-0"
+          >
+            <div class="bg-light wz-250 overflow-hidden">
+              <img class="img-fluid" src="/img/main/test/test_person_1.png" />
             </div>
           </div>
-          <div class="col-lg-9">
+          <div class="col-lg-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
             <div class="d-block">
-              <p class="fz-26"><%-project.members[i].name %></p>
+              <p class="fz-26 text-center text-md-start">
+                <%-project.members[i].name %>
+              </p>
               <hr class="hr" />
-              <p class="fz-16">職位：<%-project.members[i].position %></p>
+              <p class="fz-16">負責項目：<%-project.members[i].position %></p>
               <p class="fz-16">聯絡方式：?</p>
-              <p class="fz-16">專長：?</p>
+              <p class="fz-16">個人專長：?</p>
             </div>
           </div>
+          <% } %>
         </div>
-        <% } %>
       </div>
     </section>
 
