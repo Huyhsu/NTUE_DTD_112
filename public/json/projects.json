@@ -57,6 +57,12 @@
         "/img/projects/team2/team2_preview_1.png",
         "/img/projects/team2/team2_preview_2.png",
         "/img/projects/team2/team2_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/the_neighbors.animationteam/"
+        }
       ]
     }
   },
@@ -82,6 +88,12 @@
         "/img/projects/team3/team3_preview_1.png",
         "/img/projects/team3/team3_preview_2.png",
         "/img/projects/team3/team3_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/poker_wizard_championship/"
+        }
       ]
     }
   },
@@ -122,6 +134,12 @@
         "/img/projects/team4/team4_preview_1.png",
         "/img/projects/team4/team4_preview_2.png",
         "/img/projects/team4/team4_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/im_lumi_401/"
+        }
       ]
     }
   },
@@ -182,6 +200,12 @@
         "/img/projects/team6/team6_preview_1.png",
         "/img/projects/team6/team6_preview_2.png",
         "/img/projects/team6/team6_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/animation_xi_112/"
+        }
       ]
     }
   },
@@ -240,12 +264,12 @@
         {
           "name": "許弘陽",
           "photo": "/img/projects/team8/team8_photo_1",
-          "position": "程式"
+          "position": "程式、企劃"
         },
         {
           "name": "羅昱",
           "photo": "/img/projects/team8/team8_photo_2",
-          "position": ""
+          "position": "企劃、美術"
         },
         {
           "name": "陳宥豪",
@@ -255,7 +279,7 @@
         {
           "name": "李堂瑞",
           "photo": "/img/projects/team8/team8_photo_4",
-          "position": ""
+          "position": "企劃"
         }
       ],
       "instructor": "巴白山",
@@ -263,6 +287,12 @@
         "/img/projects/team8/team8_preview_1.png",
         "/img/projects/team8/team8_preview_2.png",
         "/img/projects/team8/team8_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/chitta_exorcist/"
+        }
       ]
     }
   },
@@ -304,6 +334,12 @@
         "/img/projects/team9/team9_preview_1.png",
         "/img/projects/team9/team9_preview_2.png",
         "/img/projects/team9/team9_preview_3.png"
+      ],
+      "social": [
+        {
+          "type": "ig",
+          "link": "https://www.instagram.com/quartet_of_appoggiatura/"
+        }
       ]
     }
   },
