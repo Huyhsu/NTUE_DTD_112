@@ -124,20 +124,29 @@
                 project.members[i].contact.length != 0) { %><% for(let j=0; j <
                 project.members[i].contact.length; j++){ %> <%
                 if(project.members[i].contact[j].type == "email") { %>
-                <br />&emsp;&emsp;信箱&emsp;<%=project.members[i].contact[j].link
+                <br />&emsp;&emsp;信箱 – <%=project.members[i].contact[j].link
                 %> <% } else if (project.members[i].contact[j].type == "tel") {
-                %>
-                <br />&emsp;&emsp;電話&emsp;<%=project.members[i].contact[j].link
-                %> <% } else if (project.members[i].contact[j].type == "web") {
-                %> <% if (project.members[i].contact[j].link.length != 0) {%>
-                <br />&emsp;&emsp;網站&emsp;<% for(let k=0; k <
+                %> <br />&emsp;&emsp;電話 –
+                <%=project.members[i].contact[j].link %> <% } else if
+                (project.members[i].contact[j].type == "web") { %> <% if
+                (project.members[i].contact[j].link.length != 0) {%>
+                <br />&emsp;&emsp;網站 – <% for(let k=0; k <
                 project.members[i].contact[j].link.length; k++){ %><%
-                if(project.members[i].contact[j].link[k].type == "fb") { %><a
+                if(project.members[i].contact[j].link[k].type == "fb") { %>
+                <a
                   href="<%= project.members[i].contact[j].link[k].link %>"
                   target="_blank"
                   rel="facebook"
                   aria-label="Facebook"
                   >FB</a
+                ><% } else if
+                (project.members[i].contact[j].link[k].type=="ig"){ %>
+                <a
+                  href="<%= project.members[i].contact[j].link[k].link %>"
+                  target="_blank"
+                  rel="instagram"
+                  aria-label="Instagram"
+                  >IG</a
                 >
                 <% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
               </p>

@@ -271,8 +271,8 @@
             {
               "type": "web",
               "link": [
-                { "type": "fb", "link": "/" },
-                { "type": "ig", "link": "/" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" },
                 { "type": "person", "link": "/" }
               ]
             }
