@@ -264,7 +264,20 @@
         {
           "name": "許弘陽",
           "photo": "/img/projects/team8/team8_photo_1",
-          "position": "程式、企劃"
+          "position": "程式",
+          "contact": [
+            { "type": "email", "link": "8787@gmail.com" },
+            { "type": "tel", "link": "0987878787" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "fb", "link": "/" },
+                { "type": "ig", "link": "/" },
+                { "type": "person", "link": "/" }
+              ]
+            }
+          ],
+          "skill": "Unity 遊戲製作、網頁前端設計"
         },
         {
           "name": "羅昱",

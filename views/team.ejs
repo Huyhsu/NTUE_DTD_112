@@ -32,7 +32,7 @@
                 ></button>
               </div>
               <div class="carousel-inner">
-                <% for(var i=0; i< project.preview.length; i++){ %> <% if (i ==
+                <% for(let i=0; i< project.preview.length; i++){ %> <% if (i ==
                 0) { %>
                 <div class="carousel-item active">
                   <img
@@ -62,43 +62,43 @@
                 </p>
                 <div class="d-block">
                   <p class="lh-lg">
-                    組員：<% for(var i=0; i< project.members.length; i++){ %><%
+                    組員：<% for(let i=0; i< project.members.length; i++){ %><%
                     if(i==project.members.length-1){ %><%=
                     project.members[i].name %><% } else { %><%=
-                    project.members[i].name %>, <%}%><% } %><br />指導老師：<%=
-                    project.instructor %>
+                    project.members[i].name %>, <%}%><% } %><br />
+                    指導老師：<%= project.instructor %>
                   </p>
                 </div>
               </div>
             </div>
-
             <% if(project.social != null) { %><% if(project.social.length != 0)
             { %>
             <div class="d-block text-end pe-2">
-            <% for(var i=0; i<project.social.length; i++){ %>
-            <% if (project.social[i].type == "ig") { %>
-              <a href="<%- project.social[i].link %>"
+              <% for(let i=0; i < project.social.length; i++){ %> <% if
+              (project.social[i].type == "ig") { %>
+              <a
+                href="<%= project.social[i].link %>"
                 target="_blank"
                 rel="instagram"
-                aria-label="Instagram">
+                aria-label="Instagram"
+              >
                 <i class="fa-brands fa-instagram fz-26 text-body"></i>
               </a>
-            <% } %> <% } %>
+              <% } %> <% } %>
             </div>
             <% } %> <% } %>
-            
           </div>
         </div>
       </div>
     </section>
-    <section class="pt-4 mt-4">
+    <section class="pt-4">
       <div class="container pt-lg-4">
         <div class="row">
-          <% for(var i=0; i< project.members.length; i++){ %>
+          <% for(let i=0; i < project.members.length; i++){ %>
           <div
-            class="col-lg-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-5 pt-sm-0"
+            class="col-lg-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-4 pt-sm-0"
           >
-            <div class="bg-light wz-160 res-md-wz-180 res-sm-wz-160">
+            <div class="wz-160 res-md-wz-180">
               <img
                 class="img-fluid"
                 src="/img/main/test/test_person_1.png"
@@ -109,12 +109,38 @@
           <div class="col-lg-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
             <div class="d-block">
               <p class="fz-26 text-center text-md-start">
-                <%-project.members[i].name %>
+                <%= project.members[i].name %>
               </p>
               <hr class="hr" />
-              <p class="fz-16">負責項目：<%-project.members[i].position %></p>
-              <p class="fz-16">聯絡方式：?</p>
-              <p class="fz-16">個人專長：?</p>
+              <p class="fz-16 ps-2 ps-md-0">
+                負責項目：<%= project.members[i].position %>
+              </p>
+              <p class="fz-16 ps-2 ps-md-0">
+                個人專長：<% if( project.members[i].skill != null) { %><%=
+                project.members[i].skill %> <% } %>
+              </p>
+              <p class="fz-16 ps-2 ps-md-0 lh-lg">
+                聯絡方式：<% if( project.members[i].contact != null) { %><% if(
+                project.members[i].contact.length != 0) { %><% for(let j=0; j <
+                project.members[i].contact.length; j++){ %> <%
+                if(project.members[i].contact[j].type == "email") { %>
+                <br />&emsp;&emsp;信箱&emsp;<%=project.members[i].contact[j].link
+                %> <% } else if (project.members[i].contact[j].type == "tel") {
+                %>
+                <br />&emsp;&emsp;電話&emsp;<%=project.members[i].contact[j].link
+                %> <% } else if (project.members[i].contact[j].type == "web") {
+                %> <% if (project.members[i].contact[j].link.length != 0) {%>
+                <br />&emsp;&emsp;網站&emsp;<% for(let k=0; k <
+                project.members[i].contact[j].link.length; k++){ %><%
+                if(project.members[i].contact[j].link[k].type == "fb") { %><a
+                  href="<%= project.members[i].contact[j].link[k].link %>"
+                  target="_blank"
+                  rel="facebook"
+                  aria-label="Facebook"
+                  >FB</a
+                >
+                <% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
+              </p>
             </div>
           </div>
           <% } %>
