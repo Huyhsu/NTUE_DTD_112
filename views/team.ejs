@@ -32,29 +32,8 @@
                 ></button>
               </div>
               <div class="carousel-inner">
-                <!-- <div class="carousel-item active">
-                  <img
-                    class="img-fluid bg-light"
-                    src="/img/main/test/test_content_1.png"
-                    alt="Slide 1"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="img-fluid bg-light"
-                    src="/img/main/test/test_content_2.png"
-                    alt="Slide 2"
-                  />
-                </div>
-                <div class="carousel-item">
-                  <img
-                    class="img-fluid bg-light"
-                    src="/img/main/test/test_content_3.png"
-                    alt="Slide 3"
-                  />
-                </div> -->
-
-                <% for(var i=0; i< project.preview.length; i++){ %> <% if (i == 0) { %>
+                <% for(var i=0; i< project.preview.length; i++){ %> <% if (i ==
+                0) { %>
                 <div class="carousel-item active">
                   <img
                     class="img-fluid bg-light"
@@ -76,55 +55,45 @@
           </div>
           <div class="col-xl-4 pt-2 justify-content-between d-flex flex-column">
             <div class="d-block pb-4">
-              <p class="fz-26 fw-bold pt-2"><%= project.name %></p>
-              <p class="lh-lg">
-                作品簡介：<br />
-                &emsp;&emsp;<%= project.introduction %>
-              </p>
-            </div>
-            <div class="d-block">
-              <p class="">
-                組員：<%for(var i=0; i< project.members.length; i++){%><%if(i==project.members.length-1) { %><%=project.members[i].name
-                %><% } else { %><%=project.members[i].name %>, <%}%><%}%>
-              </p>
-              <p>指導老師：<%= project.instructor %></p>
-            </div>
-
-            <%if(project.social != null) { %><%if(project.social.length != 0) { %> 
-                <div class="d-block text-end pe-2">
-                  <%for(var i=0; i<project.social.length;i++) {%>
-                    
-                    <%if (project.social[i].type == "ig") {%>
-                      <a
-                        href="<%- project.social[i].link %>"
-                        target="_blank"
-                        rel="instagram"
-                        aria-label="Instagram"
-                      >
-                        <i class="fa-brands fa-instagram fz-26 text-body"></i>
-                      </a>
-                    <%} else if(project.social[i].type == "fb") {%>
-                      <a
-                        href="<%- project.social[i].link %>"
-                        target="_blank"
-                        rel="facebook"
-                        aria-label="Facebook"
-                      >
-                        <i class="fa-brands fa-facebook fz-26 text-body"></i>
-                      </a>
-                    <%}%>
-
-                  <%}%>
+              <div class="d-block">
+                <p class="fz-26 fw-bold pt-2"><%= project.name %></p>
+                <p class="lh-lg">
+                  作品簡介：<br />&emsp;&emsp;<%= project.introduction %>
+                </p>
+                <div class="d-block">
+                  <p class="lh-lg">
+                    組員：<% for(var i=0; i< project.members.length; i++){ %><%
+                    if(i==project.members.length-1){ %><%=
+                    project.members[i].name %><% } else { %><%=
+                    project.members[i].name %>, <%}%><% } %><br />指導老師：<%=
+                    project.instructor %>
+                  </p>
                 </div>
-              <%}%>
-            <%}%>
+              </div>
+            </div>
+
+            <% if(project.social != null) { %><% if(project.social.length != 0)
+            { %>
+            <div class="d-block text-end pe-2">
+            <% for(var i=0; i<project.social.length; i++){ %>
+            <% if (project.social[i].type == "ig") { %>
+              <a href="<%- project.social[i].link %>"
+                target="_blank"
+                rel="instagram"
+                aria-label="Instagram">
+                <i class="fa-brands fa-instagram fz-26 text-body"></i>
+              </a>
+            <% } %> <% } %>
+            </div>
+            <% } %> <% } %>
+            
           </div>
         </div>
       </div>
     </section>
-    <section class="pt-4">
-      <div class="container">
-        <div class="row mt-4">
+    <section class="pt-4 mt-4">
+      <div class="container pt-lg-4">
+        <div class="row">
           <% for(var i=0; i< project.members.length; i++){ %>
           <div
             class="col-lg-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-5 pt-sm-0"
