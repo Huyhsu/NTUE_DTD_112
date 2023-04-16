@@ -273,7 +273,7 @@
               "link": [
                 { "type": "fb", "link": "/fb" },
                 { "type": "ig", "link": "/ig" },
-                { "type": "person", "link": "/" }
+                { "type": "personal", "link": "/personal" }
               ]
             }
           ],

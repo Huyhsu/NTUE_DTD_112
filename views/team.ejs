@@ -134,21 +134,36 @@
                 project.members[i].contact[j].link.length; k++){ %><%
                 if(project.members[i].contact[j].link[k].type == "fb") { %>
                 <a
+                  class="contact-link"
                   href="<%= project.members[i].contact[j].link[k].link %>"
                   target="_blank"
                   rel="facebook"
                   aria-label="Facebook"
-                  >FB</a
-                ><% } else if
-                (project.members[i].contact[j].link[k].type=="ig"){ %>
+                  >Facebook</a
+                ><% if(k != project.members[i].contact[j].link.length - 1)
+                {%>、<% } %><% } else
+                if(project.members[i].contact[j].link[k].type=="ig"){%>
                 <a
+                  class="contact-link"
                   href="<%= project.members[i].contact[j].link[k].link %>"
                   target="_blank"
                   rel="instagram"
                   aria-label="Instagram"
-                  >IG</a
-                >
-                <% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
+                  >Instagram</a
+                ><% if(k != project.members[i].contact[j].link.length - 1)
+                {%>、<% } %> <% } else
+                if(project.members[i].contact[j].link[k].type=="personal"){%>
+
+                <a
+                  class="contact-link"
+                  href="<%= project.members[i].contact[j].link[k].link %>"
+                  target="_blank"
+                  rel="personal"
+                  aria-label="Personal"
+                  >Personal Website</a
+                ><% if(k != project.members[i].contact[j].link.length - 1)
+                {%>、<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <%
+                } %>
               </p>
             </div>
           </div>
