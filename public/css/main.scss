@@ -157,6 +157,10 @@ a{
   min-height: 100vh;
 }
 
+.max-hz-360 {
+  max-height: 360px;
+}
+
 .max-hz-600 {
   max-height: 600px;
 }
@@ -258,6 +262,10 @@ a{
     width: 100%;
   }
 
+  .res-sm-max-hz-260 {
+    max-height: 260px;
+  }
+
 }
 
 // Small
@@ -296,6 +304,10 @@ a{
 
   .res-sm-wz-160{
     width: 160px;
+  }
+
+  .res-sm-max-hz-260 {
+    max-height: 260px;
   }
 }
 

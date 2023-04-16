@@ -144,6 +144,10 @@ a {
   min-height: 100vh;
 }
 
+.max-hz-360 {
+  max-height: 360px;
+}
+
 .max-hz-600 {
   max-height: 600px;
 }
@@ -219,6 +223,9 @@ a {
   .w-md-100 {
     width: 100%;
   }
+  .res-sm-max-hz-260 {
+    max-height: 260px;
+  }
 }
 @media (max-width: 575px) {
   .res-sm-hz-160 {
@@ -247,6 +254,9 @@ a {
   }
   .res-sm-wz-160 {
     width: 160px;
+  }
+  .res-sm-max-hz-260 {
+    max-height: 260px;
   }
 }
 .social-icons i {
