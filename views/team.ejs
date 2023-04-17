@@ -10,6 +10,8 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-indicators">
+                <% for(let i=0; i< project.preview.length; i++){ %> <% if (i ==
+                0) { %>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
@@ -18,18 +20,15 @@
                   aria-current="true"
                   aria-label="Slide 1"
                 ></button>
+                <%} else {%>
                 <button
                   type="button"
                   data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="1"
-                  aria-label="Slide 2"
+                  data-bs-slide-to="<%=i%>"
+                  aria-label="Slide <%=i+1%>"
                 ></button>
-                <button
-                  type="button"
-                  data-bs-target="#carouselExampleIndicators"
-                  data-bs-slide-to="2"
-                  aria-label="Slide 3"
-                ></button>
+
+                <%}%> <%}%>
               </div>
               <div class="carousel-inner">
                 <% for(let i=0; i< project.preview.length; i++){ %> <% if (i ==
@@ -82,7 +81,7 @@
                 rel="instagram"
                 aria-label="Instagram"
               >
-                <i class="fa-brands fa-instagram fz-26 text-body"></i>
+                <i class="fa-brands fa-instagram fz-26 team-social-link"></i>
               </a>
               <% } %> <% } %>
             </div>
@@ -96,9 +95,9 @@
         <div class="row">
           <% for(let i=0; i < project.members.length; i++){ %>
           <div
-            class="col-lg-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-4 pt-sm-0"
+            class="col-xl-2 col-md-4 d-flex justify-content-center pb-md-5 pb-2 pt-4 pt-sm-0"
           >
-            <div class="wz-160 res-md-wz-180">
+            <div class="wz-160">
               <img
                 class="img-fluid"
                 src="/img/main/test/test_person_1.png"
@@ -106,7 +105,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
+          <div class="col-xl-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
             <div class="d-block">
               <p class="fz-26 text-center text-md-start">
                 <%= project.members[i].name %>
@@ -132,16 +131,26 @@
                 (project.members[i].contact[j].link.length != 0) {%>
                 <br />&emsp;&emsp;網站 – <% for(let k=0; k <
                 project.members[i].contact[j].link.length; k++){ %><%
-                if(project.members[i].contact[j].link[k].type == "fb") { %>
+                if(project.members[i].contact[j].link[k].type == "personal") {%>
+                <a
+                  class="contact-link"
+                  href="<%= project.members[i].contact[j].link[k].link %>"
+                  target="_blank"
+                  rel="personal website"
+                  aria-label="Personal Website"
+                  ><i class="fa-solid fa-globe fz-18"></i></a
+                ><% if(k != project.members[i].contact[j].link.length - 1)
+                {%>&ensp;<% } %><% } else
+                if(project.members[i].contact[j].link[k].type=="fb"){%>
                 <a
                   class="contact-link"
                   href="<%= project.members[i].contact[j].link[k].link %>"
                   target="_blank"
                   rel="facebook"
                   aria-label="Facebook"
-                  >Facebook</a
+                  ><i class="fa-brands fa-brands fa-facebook fz-20"></i></a
                 ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>、<% } %><% } else
+                {%>&ensp;<% } %> <% } else
                 if(project.members[i].contact[j].link[k].type=="ig"){%>
                 <a
                   class="contact-link"
@@ -149,21 +158,10 @@
                   target="_blank"
                   rel="instagram"
                   aria-label="Instagram"
-                  >Instagram</a
+                  ><i class="fa-brands fa-instagram fz-20"></i></a
                 ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>、<% } %> <% } else
-                if(project.members[i].contact[j].link[k].type=="personal"){%>
-
-                <a
-                  class="contact-link"
-                  href="<%= project.members[i].contact[j].link[k].link %>"
-                  target="_blank"
-                  rel="personal"
-                  aria-label="Personal"
-                  >Personal Website</a
-                ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>、<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <%
-                } %>
+                {%>&ensp;<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
+                <% } %>
               </p>
             </div>
           </div>

@@ -124,6 +124,14 @@ a {
   font-size: 16px;
 }
 
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
 .fz-24 {
   font-size: 24px;
 }
@@ -263,10 +271,18 @@ a {
   color: #2c2c2c;
 }
 
+.social-icons i:hover {
+  color: #5c67a2;
+}
+
+.activeNav {
+  color: #5c67a2;
+}
+
 .project-link {
   position: relative;
   border: 1px solid #2c2c2c;
-  border-radius: 2px;
+  border-radius: 6px;
 }
 
 .project-link:hover {
@@ -349,6 +365,18 @@ a {
   transition: 0.3s ease;
 }
 
+.team-social-link {
+  color: #2c2c2c;
+}
+
+.team-social-link:hover {
+  color: #5c67a2;
+}
+
 .contact-link {
+  color: #2c2c2c;
+}
+
+.contact-link:hover {
   color: #5c67a2;
 }/*# sourceMappingURL=main.css.map */

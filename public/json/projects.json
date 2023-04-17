@@ -271,9 +271,9 @@
             {
               "type": "web",
               "link": [
+                { "type": "personal", "link": "/personal" },
                 { "type": "fb", "link": "/fb" },
-                { "type": "ig", "link": "/ig" },
-                { "type": "personal", "link": "/personal" }
+                { "type": "ig", "link": "/ig" }
               ]
             }
           ],

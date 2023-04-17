@@ -21,12 +21,16 @@ app.set("view engine", "ejs");
 
 // Home page
 app.get("/", (req, res) => {
-  res.render("index.ejs", { title: "拾元宇宙" });
+  res.render("index.ejs", { title: "拾元宇宙", activeNav: "home" });
 });
 
 // Project page
 app.get("/project", (req, res) => {
-  res.render("project.ejs", { title: "展覽作品", projects: projects });
+  res.render("project.ejs", {
+    title: "展覽作品",
+    activeNav: "project",
+    projects: projects,
+  });
 });
 
 // Team page
@@ -34,6 +38,7 @@ for (let i = 0; i < projects.length; i++) {
   app.get("/project/" + projects[i].team, (req, res) => {
     res.render("team.ejs", {
       title: projects[i].projectName,
+      activeNav: "project",
       project: projects[i].projectDetails,
       cover: projects[i].projectCover,
     });
@@ -45,6 +50,7 @@ app.get("*", (req, res) => {
   res.status(404);
   res.render("notFound.ejs", {
     title: "找不到您要的內容",
+    activeNav: "none",
   });
 });
 

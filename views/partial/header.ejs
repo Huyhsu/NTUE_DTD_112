@@ -29,12 +29,30 @@
       </div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="nav navbar-nav me-auto pt-2">
+          <% if(activeNav == "home") { %>
+          <li class="nav-item">
+            <a class="nav-link fw-bold fz-16 me-2 activeNav" href="/">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold fz-16" href="/project">展覽作品</a>
+          </li>
+          <% } else if(activeNav == "project") { %>
+          <li class="nav-item">
+            <a class="nav-link fw-bold fz-16 me-2" href="/">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold fz-16 activeNav" href="/project"
+              >展覽作品</a
+            >
+          </li>
+          <% } else { %>
           <li class="nav-item">
             <a class="nav-link fw-bold fz-16 me-2" href="/">首頁</a>
           </li>
           <li class="nav-item">
             <a class="nav-link fw-bold fz-16" href="/project">展覽作品</a>
           </li>
+          <% } %>
         </ul>
         <ul class="nav navbar-nav ms-auto pt-2">
           <li>
