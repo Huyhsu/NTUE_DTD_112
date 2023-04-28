@@ -361,14 +361,15 @@ a{
   content: "";
   position: absolute;
   display: block;
-  width: 100%;
+  width: 98%;
   height: 2px;
   bottom: 0;
-  left: 0;
+  left: 1%;
   background-color: #5c67a2;
   transform: scaleX(0);
   transform-origin: top left;
   transition: transform 0.3s ease;
+  border-radius: 6px;
 }
 
 // Project  Page ==================================================

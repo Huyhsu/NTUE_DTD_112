@@ -100,26 +100,26 @@
             <div class="wz-160">
               <img
                 class="img-fluid"
-                src="/img/main/test/test_person_1.png"
-                alt="person headshot"
+                src="<%= project.members[i].photo %>"
+                alt="picture"
               />
             </div>
           </div>
           <div class="col-xl-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
-            <div class="d-block">
+            <div class="d-block lh-lg">
               <p class="fz-26 text-center text-md-start">
                 <%= project.members[i].name %>
               </p>
               <hr class="hr" />
               <p class="fz-16 ps-2 ps-md-0">
-                負責項目：<%= project.members[i].position %>
+                <p class="fw-bold d-inline">負責項目：</p><%= project.members[i].position %>
               </p>
               <p class="fz-16 ps-2 ps-md-0">
-                個人專長：<% if( project.members[i].skill != null) { %><%=
+                <p class="fw-bold d-inline">個人專長：</p><% if( project.members[i].skill != null) { %><%=
                 project.members[i].skill %> <% } %>
               </p>
               <p class="fz-16 ps-2 ps-md-0 lh-lg">
-                聯絡方式：<% if( project.members[i].contact != null) { %><% if(
+                <p class="fw-bold d-inline">聯絡方式：</p><% if( project.members[i].contact != null) { %><% if(
                 project.members[i].contact.length != 0) { %><% for(let j=0; j <
                 project.members[i].contact.length; j++){ %> <%
                 if(project.members[i].contact[j].type == "email") { %>
