@@ -4,7 +4,7 @@
     "team": "team2",
     "projectName": "雙喜鄰門",
     "projectIntro": "2D 動畫",
-    "projectCover": "/img/projects/team2/team2_cover.jpg",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238368122802176/1102531403779932222/team2_cover.jpg",
     "type": "animation",
     "projectDetails": {
       "name": "雙喜鄰門",
@@ -12,7 +12,7 @@
       "members": [
         {
           "name": "曾憶如",
-          "photo": "/img/projects/team2/team2_member1_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238368122802176/1102531404144844881/team2_member1_photo.png",
           "position": "監督、編劇、背景繪製、角色設計、物件設計、音樂、音效、模型製作（背景）、配音",
           "contact": [
             {
@@ -29,7 +29,7 @@
         },
         {
           "name": "蔡其珈",
-          "photo": "/img/projects/team2/team2_member2_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238368122802176/1102531404434264084/team2_member2_photo.png",
           "position": "導演、編劇、分鏡設計、動畫、剪輯、後製、燈光、音樂、音效",
           "contact": [{ "type": "email", "link": "zxcvbnm71327@gmail.com" }],
           "skill": "使用Adobe Premiere進行影音剪接、使用Cartoon Animator製作角色動畫、使用CLIP STUDIO PAINT繪圖、文字類創作（小說或劇本）"
@@ -37,11 +37,11 @@
       ],
       "instructor": "許一珍",
       "preview": [
-        "/img/projects/team2/team2_preview_1.jpeg",
-        "/img/projects/team2/team2_preview_2.jpeg",
-        "/img/projects/team2/team2_preview_3.jpeg",
-        "/img/projects/team2/team2_preview_4.jpeg",
-        "/img/projects/team2/team2_preview_5.jpeg"
+        "https://cdn.discordapp.com/attachments/1102238368122802176/1102531404794962052/team2_preview_1.jpeg",
+        "https://cdn.discordapp.com/attachments/1102238368122802176/1102531405348622358/team2_preview_2.jpeg",
+        "https://cdn.discordapp.com/attachments/1102238368122802176/1102531405872898118/team2_preview_3.jpeg",
+        "https://cdn.discordapp.com/attachments/1102238368122802176/1102531406283952229/team2_preview_4.jpeg",
+        "https://cdn.discordapp.com/attachments/1102238368122802176/1102531407382847509/team2_preview_5.jpeg"
       ],
       "social": [
         {
@@ -56,7 +56,7 @@
     "team": "team3",
     "projectName": "撲克巫師盃",
     "projectIntro": "3D 賽車遊戲",
-    "projectCover": "/img/projects/team3/team3_cover.jpg",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238465292255323/1102531503482736670/team3_cover.jpg",
     "type": "game",
     "projectDetails": {
       "name": "撲克巫師盃",
@@ -64,7 +64,7 @@
       "members": [
         {
           "name": "謝博帆",
-          "photo": "/img/projects/team3/team3_member1_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238465292255323/1102531503948300438/team3_member1_photo.jpg",
           "position": "專案管理、企劃、美術、IP經營、30%程式",
           "contact": [
             { "type": "email", "link": "brucehsieh1028@gmail.com" },
@@ -88,12 +88,12 @@
       ],
       "instructor": "林仁智",
       "preview": [
-        "/img/projects/team3/team3_preview_1.jpg",
-        "/img/projects/team3/team3_preview_2.jpg",
-        "/img/projects/team3/team3_preview_3.jpg",
-        "/img/projects/team3/team3_preview_4.jpg",
-        "/img/projects/team3/team3_preview_5.jpg",
-        "/img/projects/team3/team3_preview_6.jpg"
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531505080766486/team3_preview_1.jpg",
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531506150326323/team3_preview_2.jpg",
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531506645241876/team3_preview_3.jpg",
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531507081461800/team3_preview_4.jpg",
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531507442155531/team3_preview_5.jpg",
+        "https://cdn.discordapp.com/attachments/1102238465292255323/1102531507895144448/team3_preview_6.jpg"
       ],
       "social": [
         {
@@ -206,7 +206,7 @@
     "team": "team5",
     "projectName": "FIELD",
     "projectIntro": "故事型網頁",
-    "projectCover": "/img/projects/team5/team5_cover.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238533697159329/1102531591298887690/team5_cover.png",
     "type": "website",
     "projectDetails": {
       "name": "FIELD",
@@ -214,7 +214,7 @@
       "members": [
         {
           "name": "鄭朝璣",
-          "photo": "/img/projects/team5/team5_member1_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238533697159329/1102531588371263558/team5_member1_photo.png",
           "position": "作品主軸企劃總籌、網頁前端 UI/UX 設計、影像敘事剪輯和拍攝",
           "contact": [
             { "type": "email", "link": "chowder.geigei@gmail.com" },
@@ -232,7 +232,7 @@
         },
         {
           "name": "林渝珊",
-          "photo": "/img/projects/team5/team5_member2_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238533697159329/1102531588618719242/team5_member2_photo.png",
           "position": "網頁前端工程架設、作品角色演出",
           "contact": [
             { "type": "email", "link": "olivia891031@gmail.com" },
@@ -251,10 +251,10 @@
       ],
       "instructor": "俞齊山",
       "preview": [
-        "/img/projects/team5/team5_preview_1.png",
-        "/img/projects/team5/team5_preview_2.png",
-        "/img/projects/team5/team5_preview_3.png",
-        "/img/projects/team5/team5_preview_4.png"
+        "https://cdn.discordapp.com/attachments/1102238533697159329/1102531589579231313/team5_preview_1.png",
+        "https://cdn.discordapp.com/attachments/1102238533697159329/1102531589944127609/team5_preview_2.png",
+        "https://cdn.discordapp.com/attachments/1102238533697159329/1102531590359355483/team5_preview_3.png",
+        "https://cdn.discordapp.com/attachments/1102238533697159329/1102531590921408642/team5_preview_4.png"
       ]
     }
   },
@@ -263,7 +263,7 @@
     "team": "team6",
     "projectName": "虩（ㄒㄧˋ）",
     "projectIntro": "2D & 3D 動畫",
-    "projectCover": "/img/projects/team6/team6_cover.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531687205842974/team6_cover.png",
     "type": "animation",
     "projectDetails": {
       "name": "虩（ㄒㄧˋ）",
@@ -271,21 +271,23 @@
       "members": [
         {
           "name": "曾傳芸",
-          "photo": "/img/projects/team6/team6_member1_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688334118912/team6_member1_photo.jpg",
           "position": "美術設定、編劇、角色設計、分鏡設計、海報繪製、文案發想、2D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "aico9028@gmail.com" }],
           "skill": "\n &emsp;&emsp;◆ Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製 \n &emsp;&emsp;◆ Adobe Illustrator／排版／元件製作／宣傳品製作 \n &emsp;&emsp;◆ Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作"
         },
         {
           "name": "林妤臻",
-          "photo": "/img/projects/team6/team6_member2_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688606732338/team6_member2_photo.jpg",
           "position": "文案發想、編劇、3D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "peggy4328@gmail.com" }],
           "skill": "\n &emsp;&emsp;◆ Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染 \n &emsp;&emsp;◆ Adobe Substance 3D Painter／貼圖繪製 \n &emsp;&emsp;◆ Adobe After Effect／剪輯／音效／特效製作"
         }
       ],
       "instructor": "盧姝如",
-      "preview": ["/img/projects/team6/team6_preview_1.png"],
+      "preview": [
+        "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688891953192/team6_preview_1.png"
+      ],
       "social": [
         {
           "type": "ig",
@@ -467,7 +469,7 @@
     "projectName": "風之奏鳴：四季花音",
     "projectFullName": "風之奏鳴：四季花音 Quartet of Appoggiatura",
     "projectIntro": "3D 遊戲",
-    "projectCover": "/img/projects/team9/team9_cover.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238634586951770/1102531833012424804/team9_cover.png",
     "type": "game",
     "projectDetails": {
       "name": "風之奏鳴：四季花音",
@@ -475,28 +477,28 @@
       "members": [
         {
           "name": "陳彥融",
-          "photo": "/img/projects/team9/team9_member1_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238634586951770/1102531915329839114/team9_member1_photo.png",
           "position": "程式、音樂、畫大餅",
           "contact": [{ "type": "email", "link": "hokomili@gmail.com" }],
           "skill": "Unity, C#, JavaScript, MuseScore"
         },
         {
           "name": "林昭成",
-          "photo": "/img/projects/team9/team9_member2_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238634586951770/1102531915682156584/team9_member2_photo.png",
           "position": "遊戲美術、3D場景、角色製作",
           "contact": [{ "type": "email", "link": "jjaacckk41208@gmail.com" }],
           "skill": "Unity3D美術、角色建模、3D場景製作、Ps、Ai、Blender"
         },
         {
           "name": "顏嘉鈺",
-          "photo": "/img/projects/team9/team9_member3_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238634586951770/1102531916101603399/team9_member3_photo.png",
           "position": "美術、使用者介面設計",
           "contact": [{ "type": "email", "link": "mua0911@gmail.com" }],
           "skill": "PS, Ai, 角色設計"
         },
         {
           "name": "王思喬",
-          "photo": "/img/projects/team9/team9_member4_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238634586951770/1102531916407775262/team9_member4_photo.png",
           "position": "特效、簡報",
           "contact": [{ "type": "email", "link": "m0983557762@gmail.com" }],
           "skill": "Unity"
@@ -504,12 +506,12 @@
       ],
       "instructor": "范丙林",
       "preview": [
-        "/img/projects/team9/team9_preview_1.png",
-        "/img/projects/team9/team9_preview_2.png",
-        "/img/projects/team9/team9_preview_3.png",
-        "/img/projects/team9/team9_preview_4.jpg",
-        "/img/projects/team9/team9_preview_5.jpg",
-        "/img/projects/team9/team9_preview_6.jpg"
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531916852383786/team9_preview_1.png",
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531918102269952/team9_preview_2.png",
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531918618185788/team9_preview_3.png",
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531914147057734/team9_preview_4.jpg",
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531914600030248/team9_preview_5.jpg",
+        "https://cdn.discordapp.com/attachments/1102238634586951770/1102531914948153454/team9_preview_6.jpg"
       ],
       "social": [
         {
@@ -525,7 +527,7 @@
     "projectName": "城市異旅",
     "projectFullName": "城市異旅 Hazepolis",
     "projectIntro": "2D 遊戲",
-    "projectCover": "/img/projects/team10/team10_cover.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238670032998491/1102531995134861362/team10_cover.png",
     "type": "game",
     "projectDetails": {
       "name": "城市異旅",
@@ -533,28 +535,28 @@
       "members": [
         {
           "name": "李昀臻",
-          "photo": "/img/projects/team10/team10_member1_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238670032998491/1102531995617214555/team10_member1_photo.png",
           "position": "程式、關卡概念設計、部分場景設置",
           "contact": [{ "type": "email", "link": "karen010401@gmail.com" }],
           "skill": "Unity c#、網頁前端"
         },
         {
           "name": "林筱晏",
-          "photo": "/img/projects/team10/team10_member2_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238670032998491/1102531996124717118/team10_member2_photo.png",
           "position": "UI、部分程式、LOGO設計",
           "contact": [{ "type": "email", "link": "58282037abc123@gmail.com" }],
           "skill": "Illustrator、網頁前端"
         },
         {
           "name": "林嘉愉",
-          "photo": "/img/projects/team10/team10_member3_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238670032998491/1102531996489629726/team10_member3_photo.png",
           "position": "場景美術、部分場景設置、人物立繪",
           "contact": [{ "type": "email", "link": "angellin15926@gmail.com" }],
           "skill": "Clip Studio Paint/Photoshop繪圖、Unity場景佈置"
         },
         {
           "name": "程郁慈",
-          "photo": "/img/projects/team10/team10_member4_photo.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238670032998491/1102531996812582942/team10_member4_photo.png",
           "position": "動畫、部分場景設置、概念美術",
           "contact": [{ "type": "email", "link": "mushroom42426@gmail.com" }],
           "skill": "Spine2d、Unity場景佈置"
@@ -562,10 +564,10 @@
       ],
       "instructor": "王學武",
       "preview": [
-        "/img/projects/team10/team10_preview_1.png",
-        "/img/projects/team10/team10_preview_2.png",
-        "/img/projects/team10/team10_preview_3.png",
-        "/img/projects/team10/team10_preview_4.png"
+        "https://cdn.discordapp.com/attachments/1102238670032998491/1102531997286535188/team10_preview_1.png",
+        "https://cdn.discordapp.com/attachments/1102238670032998491/1102531998964260894/team10_preview_2.png",
+        "https://cdn.discordapp.com/attachments/1102238670032998491/1102531999924764692/team10_preview_3.png",
+        "https://cdn.discordapp.com/attachments/1102238670032998491/1102532000411295785/team10_preview_4.png"
       ]
     }
   },
@@ -574,7 +576,7 @@
     "team": "team11",
     "projectName": "DTD Inc.",
     "projectIntro": "3D 遊戲",
-    "projectCover": "/img/projects/team11/team11_cover.jpg",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532059550978088/team11_cover.jpg",
     "type": "game",
     "projectDetails": {
       "name": "DTD Inc.",
@@ -582,14 +584,14 @@
       "members": [
         {
           "name": "魯心耘",
-          "photo": "/img/projects/team11/team11_member1_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532112424382515/team11_member1_photo.jpg",
           "position": "副程式、企劃、文件整合",
           "contact": [{ "type": "email", "link": "ameliaxylu@gmail.com" }],
           "skill": "Unity C#"
         },
         {
           "name": "林郁盛",
-          "photo": "/img/projects/team11/team11_member2_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532112734765118/team11_member2_photo.jpg",
           "position": "000",
           "contact": [
             { "type": "email", "link": "000@gmail.com" },
@@ -608,7 +610,7 @@
         },
         {
           "name": "林緯宸",
-          "photo": "/img/projects/team11/team11_member3_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532113074507776/team11_member3_photo.jpg",
           "position": "程式、創意發想",
           "contact": [
             { "type": "email", "link": "s110819006@stu.ntue.edu.tw" },
@@ -623,7 +625,7 @@
         },
         {
           "name": "劉曜誠",
-          "photo": "/img/projects/team11/team11_member4_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532113313574992/team11_member4_photo.jpg",
           "position": "美術、創意發想",
           "contact": [
             { "type": "email", "link": "sliu11124@gmail.com" },
@@ -642,12 +644,12 @@
       ],
       "instructor": "王學武",
       "preview": [
-        "/img/projects/team11/team11_preview_1.jpg",
-        "/img/projects/team11/team11_preview_2.jpg",
-        "/img/projects/team11/team11_preview_3.jpg",
-        "/img/projects/team11/team11_preview_4.jpg",
-        "/img/projects/team11/team11_preview_5.jpg",
-        "/img/projects/team11/team11_preview_6.jpg"
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532113816895578/team11_preview_1.jpg",
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532114102112276/team11_preview_2.jpg",
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532114349568000/team11_preview_3.jpg",
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532111648436285/team11_preview_4.jpg",
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532111933653022/team11_preview_5.jpg",
+        "https://cdn.discordapp.com/attachments/1102238742451859486/1102532112181121044/team11_preview_6.jpg"
       ]
     }
   },
@@ -664,21 +666,21 @@
       "members": [
         {
           "name": "許靖宜",
-          "photo": "/img/projects/team12/team12_member1_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238786307493958/1102532154950422538/team12_member1_photo.jpg",
           "position": "介面設計、吉祥物、創意發想",
           "contact": [{ "type": "email", "link": "hsu900828yahoo@gmail.com" }],
           "skill": "Figma、UI/UX設計、資料整合"
         },
         {
           "name": "蔡鈺昕",
-          "photo": "/img/projects/team12/team12_member2_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238786307493958/1102532155311128576/team12_member2_photo.jpg",
           "position": "企劃、介面設計、動畫設計",
           "contact": [{ "type": "email", "link": "fairy900828@gmail.com" }],
           "skill": "UI/UX設計、網頁設計"
         },
         {
           "name": "陳亮禎",
-          "photo": "/img/projects/team12/team12_member3_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238786307493958/1102532155680247908/team12_member3_photo.jpg",
           "position": "介面設計、程式開發",
           "contact": [{ "type": "email", "link": "felix961308@gmail.com" }],
           "skill": "APP / 網頁開發、後端開發、音樂製作、介面設計 / 平面設計"
@@ -705,14 +707,14 @@
       "members": [
         {
           "name": "余羿辰",
-          "photo": "/img/projects/team13/team13_member1_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238825452929104/1102532185082302474/team13_member1_photo.JPG",
           "position": "後端程式",
           "contact": [{ "type": "email", "link": "cub3r.ezra.yu@gmail.com" }],
           "skill": "前後端工程(Swift、React、React Native、Firebase)、SolidWorks、Comsol多重物理模擬、各式引擎拆裝、電子控制設備"
         },
         {
           "name": "林姵綺",
-          "photo": "/img/projects/team13/team13_member2_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238825452929104/1102532185409462363/team13_member2_photo.JPG",
           "position": "企劃、介面UI/UX設計、前端程式",
           "contact": [{ "type": "email", "link": "peggy1008123@yahoo.com.tw" }],
           "skill": "UI/UX設計(Figma)、前端工程(Swift、React、React Native)、電腦繪圖"
