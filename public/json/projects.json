@@ -1,36 +1,5 @@
 [
   {
-    "//_comment": "Team 01 ======================================================================================= Team 01",
-    "team": "team1",
-    "projectName": "焦土的旅居者",
-    "projectFullName": "焦土的旅居者 Scorch-earth Sojourner",
-    "projectIntro": "2D 遊戲",
-    "projectCover": "/img/projects/team1/team1_cover.png",
-    "type": "game",
-    "projectDetails": {
-      "name": "焦土的旅居者",
-      "introduction": "2D俯瞰視角末日風格的開放探索遊戲。以蒐集相片為核心主軸，將相片加以分析來獲得關於生物與地標的資訊。尋找這片土地上的人類生存的遺址。",
-      "members": [
-        {
-          "name": "陳宜禾",
-          "photo": "/img/projects/team1/team1_member1_photo.png",
-          "position": ""
-        },
-        {
-          "name": "金立",
-          "photo": "/img/projects/team1/team1_member2_photo.png",
-          "position": ""
-        }
-      ],
-      "instructor": "許一珍",
-      "preview": [
-        "/img/projects/team1/team1_preview_1.png",
-        "/img/projects/team1/team1_preview_2.png",
-        "/img/projects/team1/team1_preview_3.png"
-      ]
-    }
-  },
-  {
     "//_comment": "Team 02 ======================================================================================= Team 02",
     "team": "team2",
     "projectName": "雙喜鄰門",
@@ -148,22 +117,74 @@
         {
           "name": "陳昱潔",
           "photo": "/img/projects/team4/team4_member1_photo.png",
-          "position": ""
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "洪映佳",
           "photo": "/img/projects/team4/team4_member2_photo.png",
-          "position": ""
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "林庭儀",
           "photo": "/img/projects/team4/team4_member3_photo.png",
-          "position": ""
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "王郁涵",
           "photo": "/img/projects/team4/team4_member4_photo.png",
-          "position": ""
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         }
       ],
       "instructor": "盧姝如",
@@ -194,19 +215,46 @@
         {
           "name": "鄭朝璣",
           "photo": "/img/projects/team5/team5_member1_photo.png",
-          "position": ""
+          "position": "作品主軸企劃總籌、網頁前端 UI/UX 設計、影像敘事剪輯和拍攝",
+          "contact": [
+            { "type": "email", "link": "chowder.geigei@gmail.com" },
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "personal",
+                  "link": "https://chao-chi.github.io/contact_me/"
+                }
+              ]
+            }
+          ],
+          "skill": "Marketing、人機界面設計、UI/UX、Web design、影像敘事/剪輯"
         },
         {
           "name": "林渝珊",
           "photo": "/img/projects/team5/team5_member2_photo.png",
-          "position": ""
+          "position": "網頁前端工程架設、作品角色演出",
+          "contact": [
+            { "type": "email", "link": "olivia891031@gmail.com" },
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "fb",
+                  "link": "https://www.facebook.com/profile.php?id=100001007550858"
+                }
+              ]
+            }
+          ],
+          "skill": "前端工程（HTML、CSS、JS、BootStrap）、前端設計（Figma）、修圖（PS）、排版（AI）、電腦繪圖"
         }
       ],
       "instructor": "俞齊山",
       "preview": [
         "/img/projects/team5/team5_preview_1.png",
         "/img/projects/team5/team5_preview_2.png",
-        "/img/projects/team5/team5_preview_3.png"
+        "/img/projects/team5/team5_preview_3.png",
+        "/img/projects/team5/team5_preview_4.png"
       ]
     }
   },
@@ -219,25 +267,25 @@
     "type": "animation",
     "projectDetails": {
       "name": "虩（ㄒㄧˋ）",
-      "introduction": "2D&3D動畫。相傳在虎形山上，住著隻老虎精，守護著當地居民，後來卻因交通工程的開挖而死亡。希望能以台灣民間傳說，帶出環境開發，與生態保育的議題。",
+      "introduction": "2D & 3D動畫。相傳在虎形山上，住著隻老虎精，守護著當地居民，後來卻因交通工程的開挖而死亡。希望能以台灣民間傳說，帶出環境開發，與生態保育的議題。",
       "members": [
         {
           "name": "曾傳芸",
-          "photo": "/img/projects/team6/team6_member1_photo.png",
-          "position": ""
+          "photo": "/img/projects/team6/team6_member1_photo.jpg",
+          "position": "美術設定、編劇、角色設計、分鏡設計、海報繪製、文案發想、2D動畫、剪輯、音樂、音效",
+          "contact": [{ "type": "email", "link": "aico9028@gmail.com" }],
+          "skill": "\n &emsp;&emsp;◆ Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製 \n &emsp;&emsp;◆ Adobe Illustrator／排版／元件製作／宣傳品製作 \n &emsp;&emsp;◆ Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作"
         },
         {
           "name": "林妤臻",
-          "photo": "/img/projects/team6/team6_member2_photo.png",
-          "position": ""
+          "photo": "/img/projects/team6/team6_member2_photo.jpg",
+          "position": "文案發想、編劇、3D動畫、剪輯、音樂、音效",
+          "contact": [{ "type": "email", "link": "peggy4328@gmail.com" }],
+          "skill": "\n &emsp;&emsp;◆ Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染 \n &emsp;&emsp;◆ Adobe Substance 3D Painter／貼圖繪製 \n &emsp;&emsp;◆ Adobe After Effect／剪輯／音效／特效製作"
         }
       ],
       "instructor": "盧姝如",
-      "preview": [
-        "/img/projects/team6/team6_preview_1.png",
-        "/img/projects/team6/team6_preview_2.png",
-        "/img/projects/team6/team6_preview_3.png"
-      ],
+      "preview": ["/img/projects/team6/team6_preview_1.png"],
       "social": [
         {
           "type": "ig",
@@ -260,22 +308,50 @@
         {
           "name": "方雁",
           "photo": "/img/projects/team7/team7_member1_photo.png",
-          "position": ""
+          "position": "遊戲程式",
+          "contact": [
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "lnkd",
+                  "link": "http://linkedin.com/in/雁-方-669725262"
+                }
+              ]
+            }
+          ],
+          "skill": "\n &emsp;&emsp;◆ Front-End \n &emsp;&emsp;- HTML5, CSS3, JavaScript \n &emsp;&emsp;- RWD響應式網頁設計 \n &emsp;&emsp;- PWA漸進式網路應用程式 \n &emsp;&emsp;- React, React Native \n &emsp;&emsp;- Angular \n &emsp;&emsp;- Redux, Redux-saga \n &emsp;&emsp;- Bootstrap, Materialize \n &emsp;&emsp;◆ Database \n &emsp;&emsp;- 熟悉MSSQL \n &emsp;&emsp;- 熟悉Firebase \n &emsp;&emsp;- MongoDB \n &emsp;&emsp;- MySQL \n &emsp;&emsp;◆ Other \n &emsp;&emsp;- 版本控制：Git \n &emsp;&emsp;- 遊戲開發：Unity3D"
         },
         {
           "name": "林思彤",
           "photo": "/img/projects/team7/team7_member1_photo.png",
-          "position": ""
+          "position": "遊戲程式",
+          "contact": [{ "type": "email", "link": "lincofe@gmail.com" }],
+          "skill": "\n &emsp;&emsp;◆ Front-End \n&emsp;&emsp;- 熟悉React, React Native \n &emsp;&emsp;- HTML5, CSS3, JavaScript \n &emsp;&emsp;- 熟悉網頁切版 \n &emsp;&emsp;- RWD響應式網頁設計 \n &emsp;&emsp;- PWA漸進式網路應用程式 \n &emsp;&emsp;- Bootstrap, Redux \n &emsp;&emsp;- 熟悉Api串接, Firebase使用 \n &emsp;&emsp;◆ 程式語言 \n &emsp;&emsp;- C++ \n &emsp;&emsp;- C#（遊戲設計） \n &emsp;&emsp;- Python \n &emsp;&emsp;- HTML \n &emsp;&emsp;- JavaScript"
         },
         {
           "name": "宋雨函",
           "photo": "/img/projects/team7/team7_member1_photo.png",
-          "position": ""
+          "position": "場景建模、介面",
+          "contact": [
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "lnkd",
+                  "link": "https://www.linkedin.com/in/yu-han-sung/"
+                }
+              ]
+            }
+          ],
+          "skill": "\n &emsp;&emsp;◆ 前端：Vue、React、React Native、Node.js、MongoDB \n &emsp;&emsp;◆ 設計/其他：Figma、Blender、After Effects"
         },
         {
           "name": "楊珈綺",
           "photo": "/img/projects/team7/team7_member1_photo.png",
-          "position": ""
+          "position": "角色建模、動畫",
+          "contact": [{ "type": "email", "link": "jahy22244424@gmail.com" }],
+          "skill": "000"
         }
       ],
       "instructor": "范丙林",
@@ -301,10 +377,10 @@
         {
           "name": "許弘陽",
           "photo": "/img/projects/team8/team8_member1_photo.png",
-          "position": "程式",
+          "position": "000",
           "contact": [
-            { "type": "email", "link": "8787@gmail.com" },
-            { "type": "tel", "link": "0987878787" },
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
             {
               "type": "web",
               "link": [
@@ -314,22 +390,61 @@
               ]
             }
           ],
-          "skill": "Unity 遊戲製作、網頁前端設計"
+          "skill": "000"
         },
         {
           "name": "羅昱",
           "photo": "/img/projects/team8/team8_member2_photo.png",
-          "position": "企劃、美術"
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "陳宥豪",
           "photo": "/img/projects/team8/team8_member3_photo.png",
-          "position": "美術"
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "李堂瑞",
           "photo": "/img/projects/team8/team8_member4_photo.png",
-          "position": "企劃"
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" }
+              ]
+            }
+          ],
+          "skill": "000"
         }
       ],
       "instructor": "巴白山",
@@ -361,29 +476,40 @@
         {
           "name": "陳彥融",
           "photo": "/img/projects/team9/team9_member1_photo.png",
-          "position": ""
+          "position": "程式、音樂、畫大餅",
+          "contact": [{ "type": "email", "link": "hokomili@gmail.com" }],
+          "skill": "Unity, C#, JavaScript, MuseScore"
         },
         {
           "name": "林昭成",
           "photo": "/img/projects/team9/team9_member2_photo.png",
-          "position": ""
+          "position": "遊戲美術、3D場景、角色製作",
+          "contact": [{ "type": "email", "link": "jjaacckk41208@gmail.com" }],
+          "skill": "Unity3D美術、角色建模、3D場景製作、Ps、Ai、Blender"
         },
         {
           "name": "顏嘉鈺",
           "photo": "/img/projects/team9/team9_member3_photo.png",
-          "position": ""
+          "position": "美術、使用者介面設計",
+          "contact": [{ "type": "email", "link": "mua0911@gmail.com" }],
+          "skill": "PS, Ai, 角色設計"
         },
         {
           "name": "王思喬",
           "photo": "/img/projects/team9/team9_member4_photo.png",
-          "position": ""
+          "position": "特效、簡報",
+          "contact": [{ "type": "email", "link": "m0983557762@gmail.com" }],
+          "skill": "Unity"
         }
       ],
       "instructor": "范丙林",
       "preview": [
         "/img/projects/team9/team9_preview_1.png",
         "/img/projects/team9/team9_preview_2.png",
-        "/img/projects/team9/team9_preview_3.png"
+        "/img/projects/team9/team9_preview_3.png",
+        "/img/projects/team9/team9_preview_4.jpg",
+        "/img/projects/team9/team9_preview_5.jpg",
+        "/img/projects/team9/team9_preview_6.jpg"
       ],
       "social": [
         {
@@ -408,29 +534,38 @@
         {
           "name": "李昀臻",
           "photo": "/img/projects/team10/team10_member1_photo.png",
-          "position": ""
+          "position": "程式、關卡概念設計、部分場景設置",
+          "contact": [{ "type": "email", "link": "karen010401@gmail.com" }],
+          "skill": "Unity c#、網頁前端"
         },
         {
           "name": "林筱晏",
           "photo": "/img/projects/team10/team10_member2_photo.png",
-          "position": ""
+          "position": "UI、部分程式、LOGO設計",
+          "contact": [{ "type": "email", "link": "58282037abc123@gmail.com" }],
+          "skill": "Illustrator、網頁前端"
         },
         {
           "name": "林嘉愉",
           "photo": "/img/projects/team10/team10_member3_photo.png",
-          "position": ""
+          "position": "場景美術、部分場景設置、人物立繪",
+          "contact": [{ "type": "email", "link": "angellin15926@gmail.com" }],
+          "skill": "Clip Studio Paint/Photoshop繪圖、Unity場景佈置"
         },
         {
           "name": "程郁慈",
           "photo": "/img/projects/team10/team10_member4_photo.png",
-          "position": ""
+          "position": "動畫、部分場景設置、概念美術",
+          "contact": [{ "type": "email", "link": "mushroom42426@gmail.com" }],
+          "skill": "Spine2d、Unity場景佈置"
         }
       ],
       "instructor": "王學武",
       "preview": [
         "/img/projects/team10/team10_preview_1.png",
         "/img/projects/team10/team10_preview_2.png",
-        "/img/projects/team10/team10_preview_3.png"
+        "/img/projects/team10/team10_preview_3.png",
+        "/img/projects/team10/team10_preview_4.png"
       ]
     }
   },
@@ -439,7 +574,7 @@
     "team": "team11",
     "projectName": "DTD Inc.",
     "projectIntro": "3D 遊戲",
-    "projectCover": "/img/projects/team11/team11_cover.png",
+    "projectCover": "/img/projects/team11/team11_cover.jpg",
     "type": "game",
     "projectDetails": {
       "name": "DTD Inc.",
@@ -447,30 +582,72 @@
       "members": [
         {
           "name": "魯心耘",
-          "photo": "/img/projects/team11/team11_member1_photo.png",
-          "position": ""
+          "photo": "/img/projects/team11/team11_member1_photo.jpg",
+          "position": "副程式、企劃、文件整合",
+          "contact": [{ "type": "email", "link": "ameliaxylu@gmail.com" }],
+          "skill": "Unity C#"
         },
         {
           "name": "林郁盛",
-          "photo": "/img/projects/team11/team11_member2_photo.png",
-          "position": ""
+          "photo": "/img/projects/team11/team11_member2_photo.jpg",
+          "position": "000",
+          "contact": [
+            { "type": "email", "link": "000@gmail.com" },
+            { "type": "tel", "link": "0900000000" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "/personal" },
+                { "type": "fb", "link": "/fb" },
+                { "type": "ig", "link": "/ig" },
+                { "type": "lnkd", "link": "/lnkd" }
+              ]
+            }
+          ],
+          "skill": "000"
         },
         {
           "name": "林緯宸",
-          "photo": "/img/projects/team11/team11_member3_photo.png",
-          "position": ""
+          "photo": "/img/projects/team11/team11_member3_photo.jpg",
+          "position": "程式、創意發想",
+          "contact": [
+            { "type": "email", "link": "s110819006@stu.ntue.edu.tw" },
+            {
+              "type": "web",
+              "link": [
+                { "type": "personal", "link": "http://107.173.251.108/" }
+              ]
+            }
+          ],
+          "skill": "Unity"
         },
         {
           "name": "劉曜誠",
-          "photo": "/img/projects/team11/team11_member4_photo.png",
-          "position": ""
+          "photo": "/img/projects/team11/team11_member4_photo.jpg",
+          "position": "美術、創意發想",
+          "contact": [
+            { "type": "email", "link": "sliu11124@gmail.com" },
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "personal",
+                  "link": "https://stevenliu.mystrikingly.com"
+                }
+              ]
+            }
+          ],
+          "skill": "Unity、Blender、Photoshop"
         }
       ],
       "instructor": "王學武",
       "preview": [
-        "/img/projects/team11/team11_preview_1.png",
-        "/img/projects/team11/team11_preview_2.png",
-        "/img/projects/team11/team11_preview_3.png"
+        "/img/projects/team11/team11_preview_1.jpg",
+        "/img/projects/team11/team11_preview_2.jpg",
+        "/img/projects/team11/team11_preview_3.jpg",
+        "/img/projects/team11/team11_preview_4.jpg",
+        "/img/projects/team11/team11_preview_5.jpg",
+        "/img/projects/team11/team11_preview_6.jpg"
       ]
     }
   },
@@ -487,18 +664,24 @@
       "members": [
         {
           "name": "許靖宜",
-          "photo": "/img/projects/team12/team12_member1_photo.png",
-          "position": ""
+          "photo": "/img/projects/team12/team12_member1_photo.jpg",
+          "position": "介面設計、吉祥物、創意發想",
+          "contact": [{ "type": "email", "link": "hsu900828yahoo@gmail.com" }],
+          "skill": "Figma、UI/UX設計、資料整合"
         },
         {
           "name": "蔡鈺昕",
-          "photo": "/img/projects/team12/team12_member2_photo.png",
-          "position": ""
+          "photo": "/img/projects/team12/team12_member2_photo.jpg",
+          "position": "企劃、介面設計、動畫設計",
+          "contact": [{ "type": "email", "link": "fairy900828@gmail.com" }],
+          "skill": "UI/UX設計、網頁設計"
         },
         {
           "name": "陳亮禎",
-          "photo": "/img/projects/team12/team12_member3_photo.png",
-          "position": ""
+          "photo": "/img/projects/team12/team12_member3_photo.jpg",
+          "position": "介面設計、程式開發",
+          "contact": [{ "type": "email", "link": "felix961308@gmail.com" }],
+          "skill": "APP / 網頁開發、後端開發、音樂製作、介面設計 / 平面設計"
         }
       ],
       "instructor": "巴白山",
@@ -522,13 +705,17 @@
       "members": [
         {
           "name": "余羿辰",
-          "photo": "/img/projects/team13/team13_member1_photo.png",
-          "position": ""
+          "photo": "/img/projects/team13/team13_member1_photo.jpg",
+          "position": "後端程式",
+          "contact": [{ "type": "email", "link": "cub3r.ezra.yu@gmail.com" }],
+          "skill": "前後端工程(Swift、React、React Native、Firebase)、SolidWorks、Comsol多重物理模擬、各式引擎拆裝、電子控制設備"
         },
         {
           "name": "林姵綺",
-          "photo": "/img/projects/team13/team13_member2_photo.png",
-          "position": ""
+          "photo": "/img/projects/team13/team13_member2_photo.jpg",
+          "position": "企劃、介面UI/UX設計、前端程式",
+          "contact": [{ "type": "email", "link": "peggy1008123@yahoo.com.tw" }],
+          "skill": "UI/UX設計(Figma)、前端工程(Swift、React、React Native)、電腦繪圖"
         }
       ],
       "instructor": "俞齊山",

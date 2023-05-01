@@ -27,7 +27,6 @@
                   data-bs-slide-to="<%=i%>"
                   aria-label="Slide <%=i+1%>"
                 ></button>
-
                 <%}%> <%}%>
               </div>
               <div class="carousel-inner">
@@ -106,32 +105,46 @@
             </div>
           </div>
           <div class="col-xl-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
-            <div class="d-block lh-lg">
+            <div class="d-block">
               <p class="fz-26 text-center text-md-start">
                 <%= project.members[i].name %>
               </p>
               <hr class="hr" />
-              <p class="fz-16 ps-2 ps-md-0">
-                <p class="fw-bold d-inline">負責項目：</p><%= project.members[i].position %>
-              </p>
-              <p class="fz-16 ps-2 ps-md-0">
-                <p class="fw-bold d-inline">個人專長：</p><% if( project.members[i].skill != null) { %><%=
-                project.members[i].skill %> <% } %>
-              </p>
-              <p class="fz-16 ps-2 ps-md-0 lh-lg">
-                <p class="fw-bold d-inline">聯絡方式：</p><% if( project.members[i].contact != null) { %><% if(
+              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
+                <p class="fw-bold d-inline">負責項目：</p>
+                <p class="d-inline"><%= project.members[i].position %></p>
+              </div>
+              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
+                <p class="fw-bold d-inline">個人專長：</p>
+                <p class="d-inline">
+                  <% if( project.members[i].skill != null) { %><%-
+                  project.members[i].skill.replace(/\n/g, '\<br />') %> <% } %>
+                </p>
+              </div>
+              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
+                <p class="fw-bold d-inline">聯絡方式：</p>
+                <% if( project.members[i].contact != null) { %><% if(
                 project.members[i].contact.length != 0) { %><% for(let j=0; j <
                 project.members[i].contact.length; j++){ %> <%
                 if(project.members[i].contact[j].type == "email") { %>
-                <br />&emsp;&emsp;信箱 – <%=project.members[i].contact[j].link
-                %> <% } else if (project.members[i].contact[j].type == "tel") {
-                %> <br />&emsp;&emsp;電話 –
-                <%=project.members[i].contact[j].link %> <% } else if
-                (project.members[i].contact[j].type == "web") { %> <% if
-                (project.members[i].contact[j].link.length != 0) {%>
-                <br />&emsp;&emsp;網站 – <% for(let k=0; k <
-                project.members[i].contact[j].link.length; k++){ %><%
-                if(project.members[i].contact[j].link[k].type == "personal") {%>
+                <br />
+                <p class="d-inline fw-light">&emsp;&emsp;信箱 –</p>
+                <p class="d-inline">
+                  <%=project.members[i].contact[j].link %> <% } else if
+                  (project.members[i].contact[j].type == "tel") { %>
+                </p>
+                <br />
+                <p class="d-inline fw-light">&emsp;&emsp;電話 –</p>
+                <p class="d-inline">
+                  <%= project.members[i].contact[j].link %>
+                </p>
+                <% } else if (project.members[i].contact[j].type == "web") { %>
+                <% if (project.members[i].contact[j].link.length != 0) {%>
+                <br />
+                <p class="d-inline fw-light">&emsp;&emsp;網站 –</p>
+                <% for(let k=0; k < project.members[i].contact[j].link.length;
+                k++){ %><% if(project.members[i].contact[j].link[k].type ==
+                "personal") {%>
                 <a
                   class="contact-link"
                   href="<%= project.members[i].contact[j].link[k].link %>"
@@ -148,7 +161,7 @@
                   target="_blank"
                   rel="facebook"
                   aria-label="Facebook"
-                  ><i class="fa-brands fa-brands fa-facebook fz-20"></i></a
+                  ><i class="fa-brands fa-facebook fz-18"></i></a
                 ><% if(k != project.members[i].contact[j].link.length - 1)
                 {%>&ensp;<% } %> <% } else
                 if(project.members[i].contact[j].link[k].type=="ig"){%>
@@ -158,11 +171,21 @@
                   target="_blank"
                   rel="instagram"
                   aria-label="Instagram"
-                  ><i class="fa-brands fa-instagram fz-20"></i></a
+                  ><i class="fa-brands fa-instagram fz-18"></i></a
+                ><% if(k != project.members[i].contact[j].link.length - 1)
+                {%>&ensp;<% } %> <% } else
+                if(project.members[i].contact[j].link[k].type=="lnkd"){%>
+                <a
+                  class="contact-link"
+                  href="<%= project.members[i].contact[j].link[k].link %>"
+                  target="_blank"
+                  rel="linkedin"
+                  aria-label="Linkedin"
+                  ><i class="fa-brands fa-linkedin fz-18"></i></a
                 ><% if(k != project.members[i].contact[j].link.length - 1)
                 {%>&ensp;<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
                 <% } %>
-              </p>
+              </div>
             </div>
           </div>
           <% } %>
