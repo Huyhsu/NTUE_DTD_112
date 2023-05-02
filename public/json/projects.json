@@ -117,48 +117,23 @@
         {
           "name": "陳昱潔",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "000",
-          "contact": [
-            { "type": "email", "link": "000@gmail.com" },
-            { "type": "tel", "link": "0900000000" },
-            {
-              "type": "web",
-              "link": [
-                { "type": "personal", "link": "/personal" },
-                { "type": "fb", "link": "/fb" },
-                { "type": "ig", "link": "/ig" },
-                { "type": "lnkd", "link": "/lnkd" }
-              ]
-            }
-          ],
+          "position": "3D模型、組內經費管理",
+          "contact": [{ "type": "email", "link": "chen10250089@gmail.com" }],
           "skill": "000"
         },
         {
           "name": "洪映佳",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "000",
-          "contact": [
-            { "type": "email", "link": "000@gmail.com" },
-            { "type": "tel", "link": "0900000000" },
-            {
-              "type": "web",
-              "link": [
-                { "type": "personal", "link": "/personal" },
-                { "type": "fb", "link": "/fb" },
-                { "type": "ig", "link": "/ig" },
-                { "type": "lnkd", "link": "/lnkd" }
-              ]
-            }
-          ],
-          "skill": "000"
+          "position": "漫畫繪製、貼圖繪製、明信片繪製",
+          "contact": [{ "type": "email", "link": "elle28450744@gmail.com" }],
+          "skill": "電腦繪圖(Clip Studio Paint、Adobe Illiustrator)、Figma"
         },
         {
           "name": "林庭儀",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "000",
+          "position": "動畫影片剪輯、部分漫畫線稿、音效配樂、部分圖片後製、部分週邊設計、貼文文案",
           "contact": [
-            { "type": "email", "link": "000@gmail.com" },
-            { "type": "tel", "link": "0900000000" },
+            { "type": "email", "link": "tiniyalin.t1@gmail.com" },
             {
               "type": "web",
               "link": [
@@ -169,26 +144,24 @@
               ]
             }
           ],
-          "skill": "000"
+          "skill": "電腦繪圖(Adobe Photoshop、Medibang)、基本影音剪輯(Adobe After Effects、威力導演)、Figma"
         },
         {
           "name": "王郁涵",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "000",
+          "position": "企劃、角色設計、漫畫繪製、圖片後製、週邊設計",
           "contact": [
-            { "type": "email", "link": "000@gmail.com" },
-            { "type": "tel", "link": "0900000000" },
             {
               "type": "web",
               "link": [
-                { "type": "personal", "link": "/personal" },
-                { "type": "fb", "link": "/fb" },
-                { "type": "ig", "link": "/ig" },
-                { "type": "lnkd", "link": "/lnkd" }
+                {
+                  "type": "ig",
+                  "link": "https://www.instagram.com/yuehan_art/"
+                }
               ]
             }
           ],
-          "skill": "000"
+          "skill": "電腦繪圖(illustrator、CSP)、InDesign、手繪素描"
         }
       ],
       "instructor": "盧姝如",
@@ -246,6 +219,10 @@
                 {
                   "type": "fb",
                   "link": "https://www.facebook.com/profile.php?id=100001007550858"
+                },
+                {
+                  "type": "lnkd",
+                  "link": "https://www.linkedin.com/in/%E6%B8%9D%E7%8F%8A-%E6%9E%97-345a1a1b1/"
                 }
               ]
             }
@@ -278,14 +255,14 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688334118912/team6_member1_photo.jpg",
           "position": "美術設定、編劇、角色設計、分鏡設計、海報繪製、文案發想、2D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "aico9028@gmail.com" }],
-          "skill": "\n &emsp;&emsp;◆ Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製 \n &emsp;&emsp;◆ Adobe Illustrator／排版／元件製作／宣傳品製作 \n &emsp;&emsp;◆ Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作"
+          "skill": "\n &emsp;&emsp;・Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製 \n &emsp;&emsp;・Adobe Illustrator／排版／元件製作／宣傳品製作 \n &emsp;&emsp;・Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作"
         },
         {
           "name": "林妤臻",
           "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688606732338/team6_member2_photo.jpg",
           "position": "文案發想、編劇、3D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "peggy4328@gmail.com" }],
-          "skill": "\n &emsp;&emsp;◆ Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染 \n &emsp;&emsp;◆ Adobe Substance 3D Painter／貼圖繪製 \n &emsp;&emsp;◆ Adobe After Effect／剪輯／音效／特效製作"
+          "skill": "\n &emsp;&emsp;・Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染 \n &emsp;&emsp;・Adobe Substance 3D Painter／貼圖繪製 \n &emsp;&emsp;・Adobe After Effect／剪輯／音效／特效製作"
         }
       ],
       "instructor": "盧姝如",
@@ -326,14 +303,14 @@
               ]
             }
           ],
-          "skill": "\n &emsp;&emsp;◆ Front-End \n &emsp;&emsp;- HTML5, CSS3, JavaScript \n &emsp;&emsp;- RWD響應式網頁設計 \n &emsp;&emsp;- PWA漸進式網路應用程式 \n &emsp;&emsp;- React, React Native \n &emsp;&emsp;- Angular \n &emsp;&emsp;- Redux, Redux-saga \n &emsp;&emsp;- Bootstrap, Materialize \n &emsp;&emsp;◆ Database \n &emsp;&emsp;- 熟悉MSSQL \n &emsp;&emsp;- 熟悉Firebase \n &emsp;&emsp;- MongoDB \n &emsp;&emsp;- MySQL \n &emsp;&emsp;◆ Other \n &emsp;&emsp;- 版本控制：Git \n &emsp;&emsp;- 遊戲開發：Unity3D"
+          "skill": "\n &emsp;&emsp;・前端：HTML5, CSS3, JavaScript、RWD響應式網頁設計、PWA漸進式網路應用程式、React, React Native、Angular、Redux, Redux-saga、Bootstrap, Materialize \n &emsp;&emsp;・資料庫：熟悉MSSQL、熟悉Firebase、MongoDB、MySQL \n &emsp;&emsp;・其他：Git 版本控制、Unity3D 遊戲開發"
         },
         {
           "name": "林思彤",
           "photo": "https://cdn.discordapp.com/attachments/1102238610473889903/1102595307281326200/team7_member2_photo.jpg",
           "position": "遊戲程式",
           "contact": [{ "type": "email", "link": "lincofe@gmail.com" }],
-          "skill": "\n &emsp;&emsp;◆ Front-End \n&emsp;&emsp;- 熟悉React, React Native \n &emsp;&emsp;- HTML5, CSS3, JavaScript \n &emsp;&emsp;- 熟悉網頁切版 \n &emsp;&emsp;- RWD響應式網頁設計 \n &emsp;&emsp;- PWA漸進式網路應用程式 \n &emsp;&emsp;- Bootstrap, Redux \n &emsp;&emsp;- 熟悉Api串接, Firebase使用 \n &emsp;&emsp;◆ 程式語言 \n &emsp;&emsp;- C++ \n &emsp;&emsp;- C#（遊戲設計） \n &emsp;&emsp;- Python \n &emsp;&emsp;- HTML \n &emsp;&emsp;- JavaScript"
+          "skill": "\n &emsp;&emsp;・前端：React、React Native、Api串接、Firebase使用 \n &emsp;&emsp;・程式語言：C++、C#、Python \n &emsp;&emsp;・遊戲設計：Unity2D / 3D、OpenGL"
         },
         {
           "name": "宋雨函",
@@ -350,14 +327,14 @@
               ]
             }
           ],
-          "skill": "\n &emsp;&emsp;◆ 前端：Vue、React、React Native、Node.js、MongoDB \n &emsp;&emsp;◆ 設計/其他：Figma、Blender、After Effects"
+          "skill": "\n &emsp;&emsp;・前端：Vue、React、React Native、Node.js、MongoDB \n &emsp;&emsp;・設計/其他：Figma、Blender、After Effects"
         },
         {
           "name": "楊珈綺",
-          "photo": "/img/main/test/test_person_1.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238610473889903/1102824319496753312/team7_member4_photo.png",
           "position": "角色建模、動畫",
           "contact": [{ "type": "email", "link": "jahy22244424@gmail.com" }],
-          "skill": "000"
+          "skill": "\n &emsp;&emsp;・遊戲開發：\n &emsp;&emsp;&emsp;&emsp;建模 – Blender, 3ds Max, Maya \n &emsp;&emsp;&emsp;&emsp;3D動畫 – Blender \n &emsp;&emsp;&emsp;&emsp;物件功能 – Unity \n &emsp;&emsp;・繪圖設計：\n &emsp;&emsp;&emsp;&emsp;平面設計 – Illustrator, PhotoShop \n &emsp;&emsp;&emsp;&emsp;電腦繪圖 – PhotoShop \n &emsp;&emsp;・影音後製：\n &emsp;&emsp;&emsp;&emsp;剪輯 – Premiere \n &emsp;&emsp;&emsp;&emsp;特效動畫 – After Effects \n &emsp;&emsp;&emsp;&emsp;企劃發想"
         }
       ],
       "instructor": "范丙林",
@@ -385,7 +362,15 @@
           "photo": "https://cdn.discordapp.com/attachments/1102593764620521472/1102607420657770527/team8_member1_photo.jpg",
           "position": "程式",
           "contact": [
-            { "type": "email", "link": "s110819019@stu.ntue.edu.tw" }
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "fb",
+                  "link": "https://www.facebook.com/profile.php?id=100002942514249"
+                }
+              ]
+            }
           ],
           "skill": "網頁前端設計、Unity 遊戲製作"
         },
@@ -408,7 +393,7 @@
           "photo": "https://cdn.discordapp.com/attachments/1102593764620521472/1102619008072679494/team8_member4_photo.png",
           "position": "企劃",
           "contact": [{ "type": "email", "link": "tomray6971@gmail.com" }],
-          "skill": "000"
+          "skill": "UI設計、使用者經驗設計"
         }
       ],
       "instructor": "巴白山",
@@ -661,7 +646,7 @@
     "team": "team13",
     "projectName": "9Knights",
     "projectIntro": "APP",
-    "projectCover": "/img/main/test/test_content_1.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238825452929104/1102824645310292059/team13_cover.jpg",
     "type": "app",
     "projectDetails": {
       "name": "9Knights",
@@ -684,9 +669,9 @@
       ],
       "instructor": "俞齊山",
       "preview": [
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png"
+        "https://cdn.discordapp.com/attachments/1102238825452929104/1102824644177825882/team13_preview_1.jpg",
+        "https://cdn.discordapp.com/attachments/1102238825452929104/1102824644609855539/team13_preview_2.jpg",
+        "https://cdn.discordapp.com/attachments/1102238825452929104/1102824644966354994/team13_preview_3.jpg"
       ]
     }
   }
