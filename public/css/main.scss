@@ -9,12 +9,12 @@ body {
   background-color: #fcfcfc;
 }
 
-ul
-{
-  list-style: none;
-  list-style-type: none;
-  padding-inline-start: 0;
-}
+// ul
+// {
+//   list-style: none;
+//   list-style-type: none;
+//   padding-inline-start: 0;
+// }
 
 a{
   cursor: pointer;
@@ -322,6 +322,12 @@ a{
 
 // Header ==================================================
 
+.social-icons {
+  list-style: none;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
 .social-icons i{
   color: #2c2c2c;
 }
@@ -332,6 +338,18 @@ a{
 
 .activeNav {
   color: #5c67a2;
+}
+
+.ul-page {
+  list-style: none;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.ul-social {
+  list-style: none;
+  list-style-type: none;
+  padding-inline-start: 0;
 }
 
 // Footer ==================================================
@@ -450,3 +468,7 @@ a{
 .contact-link:hover {
   color: #5c67a2;
 }
+
+// .ul-skill {
+//   list-style-position: outside;
+// }

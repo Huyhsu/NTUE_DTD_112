@@ -8,13 +8,6 @@ body {
   background-color: #fcfcfc;
 }
 
-ul {
-  list-style: none;
-  list-style-type: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-}
-
 a {
   cursor: pointer;
   text-decoration: none;
@@ -267,6 +260,13 @@ a {
     max-height: 260px;
   }
 }
+.social-icons {
+  list-style: none;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
 .social-icons i {
   color: #2c2c2c;
 }
@@ -277,6 +277,20 @@ a {
 
 .activeNav {
   color: #5c67a2;
+}
+
+.ul-page {
+  list-style: none;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.ul-social {
+  list-style: none;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
 }
 
 .project-link {
