@@ -282,7 +282,7 @@
     "team": "team7",
     "projectName": "復甦之地",
     "projectIntro": "3D 冒險遊戲",
-    "projectCover": "/img/main/test/test_content_1.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238610473889903/1102998057144041562/team7_cover.png",
     "type": "game",
     "projectDetails": {
       "name": "復甦之地",
@@ -339,9 +339,11 @@
       ],
       "instructor": "范丙林",
       "preview": [
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png"
+        "https://cdn.discordapp.com/attachments/1102238610473889903/1102998054971392072/team7_preview_1.png",
+        "https://cdn.discordapp.com/attachments/1102238610473889903/1102998055415992330/team7_preview_2.png",
+        "https://cdn.discordapp.com/attachments/1102238610473889903/1102998055839608972/team7_preview_3.png",
+        "https://cdn.discordapp.com/attachments/1102238610473889903/1102998056296796250/team7_preview_4.png",
+        "https://cdn.discordapp.com/attachments/1102238610473889903/1102998056686858380/team7_preview_5.png"
       ]
     }
   },
