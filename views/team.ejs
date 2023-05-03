@@ -110,81 +110,89 @@
                 <%= project.members[i].name %>
               </p>
               <hr class="hr" />
-              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
-                <p class="fw-bold d-inline">負責項目：</p>
-                <p class="d-inline"><%= project.members[i].position %></p>
+              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-flex">
+                <p class="d-inline text-nowrap mb-0">負責項目：</p>
+                <p class="d-inline mb-0"><%= project.members[i].position %></p>
               </div>
-              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
-                <p class="fw-bold d-inline">個人專長：</p>
-                <p class="d-inline">
+              <div
+                class="fz-16 ps-2 ps-md-0 lh-lg pb-2 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
+              >
+                <p class="d-inline text-nowrap mb-0">個人專長：</p>
+                <p class="d-inline mb-0">
                   <% if( project.members[i].skill != null) { %><%-
                   project.members[i].skill.replace(/\n/g, '\<br />') %> <% } %>
                 </p>
               </div>
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
-                <p class="fw-bold d-inline">聯絡方式：</p>
-                <% if( project.members[i].contact != null) { %><% if(
-                project.members[i].contact.length != 0) { %><% for(let j=0; j <
-                project.members[i].contact.length; j++){ %> <%
-                if(project.members[i].contact[j].type == "email") { %>
-                <br />
-                <p class="d-inline fw-light">&emsp;&emsp;信箱 –</p>
-                <p class="d-inline">
-                  <%=project.members[i].contact[j].link %> <% } else if
-                  (project.members[i].contact[j].type == "tel") { %>
-                </p>
-                <br />
-                <p class="d-inline fw-light">&emsp;&emsp;電話 –</p>
-                <p class="d-inline">
-                  <%= project.members[i].contact[j].link %>
-                </p>
-                <% } else if (project.members[i].contact[j].type == "web") { %>
-                <% if (project.members[i].contact[j].link.length != 0) {%>
-                <br />
-                <p class="d-inline fw-light">&emsp;&emsp;網站 –</p>
-                <% for(let k=0; k < project.members[i].contact[j].link.length;
-                k++){ %><% if(project.members[i].contact[j].link[k].type ==
-                "personal") {%>
-                <a
-                  class="contact-link"
-                  href="<%= project.members[i].contact[j].link[k].link %>"
-                  target="_blank"
-                  rel="personal website"
-                  aria-label="Personal Website"
-                  ><i class="fa-solid fa-globe fz-18"></i></a
-                ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>&ensp;<% } %><% } else
-                if(project.members[i].contact[j].link[k].type=="fb"){%>
-                <a
-                  class="contact-link"
-                  href="<%= project.members[i].contact[j].link[k].link %>"
-                  target="_blank"
-                  rel="facebook"
-                  aria-label="Facebook"
-                  ><i class="fa-brands fa-facebook fz-18"></i></a
-                ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>&ensp;<% } %> <% } else
-                if(project.members[i].contact[j].link[k].type=="ig"){%>
-                <a
-                  class="contact-link"
-                  href="<%= project.members[i].contact[j].link[k].link %>"
-                  target="_blank"
-                  rel="instagram"
-                  aria-label="Instagram"
-                  ><i class="fa-brands fa-instagram fz-18"></i></a
-                ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>&ensp;<% } %> <% } else
-                if(project.members[i].contact[j].link[k].type=="lnkd"){%>
-                <a
-                  class="contact-link"
-                  href="<%= project.members[i].contact[j].link[k].link %>"
-                  target="_blank"
-                  rel="linkedin"
-                  aria-label="Linkedin"
-                  ><i class="fa-brands fa-linkedin fz-18"></i></a
-                ><% if(k != project.members[i].contact[j].link.length - 1)
-                {%>&ensp;<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <% } %>
-                <% } %>
+                <p class="d-inline text-nowrap mb-0">聯絡方式：</p>
+                <ul>
+                  <% if( project.members[i].contact != null) { %><% if(
+                  project.members[i].contact.length != 0) { %><% for(let j=0; j
+                  < project.members[i].contact.length; j++){ %> <%
+                  if(project.members[i].contact[j].type == "email") { %>
+                  <li>
+                    <p class="d-inline">信箱：</p>
+                    <p class="d-inline">
+                      <%=project.members[i].contact[j].link %> <% } else if
+                      (project.members[i].contact[j].type == "tel") { %>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="d-inline">電話：</p>
+                    <p class="d-inline">
+                      <%= project.members[i].contact[j].link %>
+                    </p>
+                  </li>
+                  <% } else if (project.members[i].contact[j].type == "web") {
+                  %> <% if (project.members[i].contact[j].link.length != 0) {%>
+                  <li>
+                    <p class="d-inline">網站：</p>
+                    <% for(let k=0; k <
+                    project.members[i].contact[j].link.length; k++){ %><%
+                    if(project.members[i].contact[j].link[k].type == "personal")
+                    {%>
+                    <a
+                      class="contact-link"
+                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      target="_blank"
+                      rel="personal website"
+                      aria-label="Personal Website"
+                      ><i class="fa-solid fa-globe fz-18"></i></a
+                    ><% if(k != project.members[i].contact[j].link.length - 1)
+                    {%>&ensp;<% } %><% } else
+                    if(project.members[i].contact[j].link[k].type=="fb"){%>
+                    <a
+                      class="contact-link"
+                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      target="_blank"
+                      rel="facebook"
+                      aria-label="Facebook"
+                      ><i class="fa-brands fa-facebook fz-18"></i></a
+                    ><% if(k != project.members[i].contact[j].link.length - 1)
+                    {%>&ensp;<% } %> <% } else
+                    if(project.members[i].contact[j].link[k].type=="ig"){%>
+                    <a
+                      class="contact-link"
+                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      target="_blank"
+                      rel="instagram"
+                      aria-label="Instagram"
+                      ><i class="fa-brands fa-instagram fz-18"></i></a
+                    ><% if(k != project.members[i].contact[j].link.length - 1)
+                    {%>&ensp;<% } %> <% } else
+                    if(project.members[i].contact[j].link[k].type=="lnkd"){%>
+                    <a
+                      class="contact-link"
+                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      target="_blank"
+                      rel="linkedin"
+                      aria-label="Linkedin"
+                      ><i class="fa-brands fa-linkedin fz-18"></i></a
+                    ><% if(k != project.members[i].contact[j].link.length - 1)
+                    {%>&ensp;<% } %> <% } %> <% } %> <% } %> <% } %> <% } %> <%
+                    } %> <% } %>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
