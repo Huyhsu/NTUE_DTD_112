@@ -117,7 +117,7 @@
         {
           "name": "陳昱潔",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "3D模型、組內經費管理、Figma模擬網站架設",
+          "position": "3D模型、組內財務管理、figma模擬網站架設",
           "contact": [{ "type": "email", "link": "chen10250089@gmail.com" }],
           "skill": ""
         },
@@ -131,14 +131,14 @@
         {
           "name": "林庭儀",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "動畫影片剪輯、部分漫畫線稿、音效配樂、部分圖片後製、部分週邊設計、貼文文案",
+          "position": "動畫影片剪輯、漫畫繪製、音效配樂、圖片後製、週邊設計、貼文文案",
           "contact": [{ "type": "email", "link": "tiniyalin.t1@gmail.com" }],
           "skill": "電腦繪圖(Adobe Photoshop、Medibang)、基本影音剪輯(Adobe After Effects、威力導演)、Figma"
         },
         {
           "name": "王郁涵",
           "photo": "/img/main/test/test_person_1.png",
-          "position": "企劃、角色設計、漫畫繪製、圖片後製、週邊設計",
+          "position": "企劃、角色設計、漫畫繪製、圖片後製、週邊設計、貼文文案",
           "contact": [
             {
               "type": "web",
@@ -155,9 +155,11 @@
       ],
       "instructor": "盧姝如",
       "preview": [
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png"
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384373526558/team4_preview_1.jpg",
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384620986428/team4_preview_2.jpg",
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384889426000/team4_preview_3.jpg",
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1103275385287880804/team4_preview_4.jpg",
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1103275385539547236/team4_preview_5.jpg"
       ],
       "social": [
         {
@@ -590,7 +592,7 @@
     "team": "team12",
     "projectName": "Minimal",
     "projectIntro": "APP",
-    "projectCover": "/img/main/test/test_content_1.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238786307493958/1103275471023652884/team12_cover.png",
     "type": "app",
     "projectDetails": {
       "name": "Minimal",
@@ -620,9 +622,11 @@
       ],
       "instructor": "巴白山",
       "preview": [
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png",
-        "/img/main/test/test_content_1.png"
+        "https://cdn.discordapp.com/attachments/1102238786307493958/1103275469161377862/team12_preview_1.png",
+        "https://cdn.discordapp.com/attachments/1102238786307493958/1103275469639532634/team12_preview_2.png",
+        "https://cdn.discordapp.com/attachments/1102238786307493958/1103275470004428921/team12_preview_3.png",
+        "https://cdn.discordapp.com/attachments/1102238786307493958/1103275470289645578/team12_preview_4.png",
+        "https://cdn.discordapp.com/attachments/1102238786307493958/1103275470679711836/team12_preview_5.png"
       ]
     }
   },
