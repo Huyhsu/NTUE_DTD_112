@@ -119,38 +119,42 @@
               <div
                 class="fz-16 ps-2 ps-md-0 lh-lg pb-2 w-100 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
               >
-                <p class="d-inline text-nowrap mb-0 fz-16">個人專長：</p>
-                <p class="d-inline mb-0 fz-16">
-                  <% if( project.members[i].skill != null) { %><%-
-                  project.members[i].skill.replace(/\n/g, '\<br />') %> <% } %>
+                <p class="text-nowrap mb-0 fz-16">個人專長：</p>
+                <% if( project.members[i].skill != null &&
+                project.members[i].skillStyle != null) { %> <%-
+                project.members[i].skill.replace(/\n/g, '\<br />') %> <% } else
+                if(project.members[i].skill != null) { %>
+                <p class="mb-0 fz-16">
+                  <%- project.members[i].skill.replace(/\n/g, '\<br />') %>
                 </p>
+                <% } %>
               </div>
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 w-100">
                 <p class="d-inline text-nowrap mb-0 fz-16">聯絡方式：</p>
+                <% if( project.members[i].contact != null) { %><% if(
+                project.members[i].contact.length != 0) { %>
                 <ul class="fz-16 w-100">
-                  <% if( project.members[i].contact != null) { %><% if(
-                  project.members[i].contact.length != 0) { %><% for(let j=0; j
-                  < project.members[i].contact.length; j++){ %> <%
-                  if(project.members[i].contact[j].type == "email") { %>
+                  <% for(let j=0; j < project.members[i].contact.length; j++){
+                  %> <% if(project.members[i].contact[j].type == "email") {%>
                   <li class="fz-16">
                     <p class="d-inline fz-16">信箱：</p>
                     <p class="d-inline fz-16">
-                      <%=project.members[i].contact[j].link %> <% } else if
-                      (project.members[i].contact[j].type == "tel") { %>
+                      <%=project.members[i].contact[j].link %>
                     </p>
                   </li>
+                  <% } else if (project.members[i].contact[j].type == "tel") {%>
                   <li class="fz-16">
                     <p class="d-inline fz-16">電話：</p>
                     <p class="d-inline fz-16">
                       <%= project.members[i].contact[j].link %>
                     </p>
                   </li>
-                  <% } else if (project.members[i].contact[j].type == "web") {
-                  %> <% if (project.members[i].contact[j].link.length != 0) {%>
+                  <% } else if (project.members[i].contact[j].type == "web") {%>
+                  <% if (project.members[i].contact[j].link.length != 0) {%>
                   <li class="fz-16">
                     <p class="d-inline fz-16">網站：</p>
                     <% for(let k=0; k <
-                    project.members[i].contact[j].link.length; k++){ %><%
+                    project.members[i].contact[j].link.length; k++){%> <%
                     if(project.members[i].contact[j].link[k].type == "personal")
                     {%>
                     <a
@@ -161,7 +165,7 @@
                       aria-label="Personal Website"
                       ><i class="fa-solid fa-globe fz-18"></i></a
                     ><% if(k != project.members[i].contact[j].link.length - 1)
-                    {%>&ensp;<% } %><% } else
+                    {%>&ensp;<% } %> <% } else
                     if(project.members[i].contact[j].link[k].type=="fb"){%>
                     <a
                       class="contact-link"

@@ -8,6 +8,10 @@ body {
   background-color: #fcfcfc;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;
