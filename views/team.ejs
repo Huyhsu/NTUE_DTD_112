@@ -112,7 +112,7 @@
               <hr class="hr" />
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-inline-flex w-100">
                 <div>
-                  <p class="text-nowrap mb-0 fz-16">負責項目：</p>
+                  <p class="text-nowrap mb-0 fz-16">負責項目&#xFF1A;</p>
                 </div>
                 <div class="w-100">
                   <p class="mb-0 fz-16"><%- project.members[i].position %></p>
@@ -143,16 +143,14 @@
                   <% for(let j=0; j < project.members[i].contact.length; j++){
                   %> <% if(project.members[i].contact[j].type == "email") {%>
                   <li class="fz-16 w-100">
-                    <p class="d-inline fz-16 text-nowrap">信箱：</p>
                     <p class="d-inline fz-16">
-                      <%- project.members[i].contact[j].link %>
+                      信箱：<%- project.members[i].contact[j].link %>
                     </p>
                   </li>
                   <% } else if (project.members[i].contact[j].type == "tel") {%>
                   <li class="fz-16 w-100">
-                    <p class="d-inline fz-16 text-nowrap">電話：</p>
                     <p class="d-inline fz-16">
-                      <%- project.members[i].contact[j].link %>
+                      電話：<%- project.members[i].contact[j].link %>
                     </p>
                   </li>
                   <% } else if (project.members[i].contact[j].type == "web") {%>
