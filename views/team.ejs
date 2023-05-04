@@ -110,11 +110,13 @@
                 <%= project.members[i].name %>
               </p>
               <hr class="hr" />
-              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-flex w-100">
-                <p class="d-inline text-nowrap mb-0 fz-16">負責項目：</p>
-                <p class="d-inline mb-0 fz-16">
-                  <%= project.members[i].position %>
-                </p>
+              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-inline-flex w-100">
+                <div>
+                  <p class="text-nowrap mb-0 fz-16">負責項目：</p>
+                </div>
+                <div>
+                  <p class="mb-0 fz-16"><%= project.members[i].position %></p>
+                </div>
               </div>
               <div
                 class="fz-16 ps-2 ps-md-0 lh-lg pb-2 w-100 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
