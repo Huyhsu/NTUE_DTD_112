@@ -108,7 +108,7 @@
     "team": "team4",
     "projectName": "L00KER 錄刻爾",
     "projectIntro": "多媒體互動式企劃",
-    "projectCover": "/img/main/test/test_content_1.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384373526558/team4_preview_1.jpg",
     "type": "plan",
     "projectDetails": {
       "name": "L00KER 錄刻爾",
@@ -116,29 +116,40 @@
       "members": [
         {
           "name": "陳昱潔",
-          "photo": "/img/main/test/test_person_1.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103545916088139776/team4_member1_photo.jpg",
           "position": "3D模型、組內財務管理、figma模擬網站架設",
           "contact": [{ "type": "email", "link": "chen10250089@gmail.com" }],
           "skill": ""
         },
         {
           "name": "洪映佳",
-          "photo": "/img/main/test/test_person_1.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103545916411093002/team4_member2_photo.jpg",
           "position": "漫畫繪製、貼圖繪製、明信片繪製",
           "contact": [{ "type": "email", "link": "elle28450744@gmail.com" }],
           "skill": "電腦繪圖(Clip Studio Paint、Adobe Illiustrator)、Figma"
         },
         {
           "name": "林庭儀",
-          "photo": "/img/main/test/test_person_1.png",
+          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103545915421229166/team4_member3_photo.jpg",
           "position": "動畫影片剪輯、漫畫繪製、音效配樂、圖片後製、週邊設計、貼文文案",
-          "contact": [{ "type": "email", "link": "tiniyalin.t1@gmail.com" }],
+          "contact": [
+            { "type": "email", "link": "tiniyalin.t1@gmail.com" },
+            {
+              "type": "web",
+              "link": [
+                {
+                  "type": "personal",
+                  "link": "https://lit.link/tiniyalin/"
+                }
+              ]
+            }
+          ],
           "skill": "電腦繪圖(Adobe Photoshop、Medibang)、基本影音剪輯(Adobe After Effects、威力導演)、Figma"
         },
         {
           "name": "王郁涵",
-          "photo": "/img/main/test/test_person_1.png",
-          "position": "企劃、角色設計、漫畫繪製、圖片後製、週邊設計、貼文文案",
+          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103545915769364511/team4_member4_photo.jpg",
+          "position": "企劃、角色設計、漫畫繪製、圖片後製、週邊設計、貼文文案、海報繪製",
           "contact": [
             {
               "type": "web",
@@ -538,9 +549,9 @@
         {
           "name": "林郁盛",
           "photo": "https://cdn.discordapp.com/attachments/1102238742451859486/1102532112734765118/team11_member2_photo.jpg",
-          "position": "胡言亂語、大岩壁",
-          "contact": [],
-          "skill": ""
+          "position": "角色建模、開心果",
+          "contact": [{ "type": "email", "link": "sss890925@gmail.com" }],
+          "skill": "Blender、跳舞"
         },
         {
           "name": "林緯宸",
