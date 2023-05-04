@@ -257,7 +257,7 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688334118912/team6_member1_photo.jpg",
           "position": "美術設定、編劇、角色設計、分鏡設計、海報繪製、文案發想、2D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "aico9028@gmail.com" }],
-          "skill": "<ul class='fz-16'><li>Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製</li><li>Adobe Illustrator／排版／元件製作／宣傳品製作</li><li>Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>Adobe Photoshop／繪圖／修圖／元件製作／逐格動畫繪製</li><li class='fz-16'>Adobe Illustrator／排版／元件製作／宣傳品製作</li><li class='fz-16'>Adobe After Effect／補間動畫／剪輯／合成／音效／特效製作</li></ul>",
           "skillStyle": "none"
         },
         {
@@ -265,7 +265,7 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238588244086824/1102531688606732338/team6_member2_photo.jpg",
           "position": "文案發想、編劇、3D動畫、剪輯、音樂、音效",
           "contact": [{ "type": "email", "link": "peggy4328@gmail.com" }],
-          "skill": "<ul class='fz-16'><li>Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染</li><li>Adobe Substance 3D Painter／貼圖繪製</li><li>Adobe After Effect／剪輯／音效／特效製作</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>Autodesk Maya／物件建模Blender／角色雕塑與建模／場景建模／貼圖繪製／動畫渲染</li><li class='fz-16'>Adobe Substance 3D Painter／貼圖繪製</li><li class='fz-16'>Adobe After Effect／剪輯／音效／特效製作</li></ul>",
           "skillStyle": "none"
         }
       ],
@@ -307,7 +307,7 @@
               ]
             }
           ],
-          "skill": "<ul class='fz-16'><li>前端：HTML5、CSS3、JavaScript、RWD響應式網頁設計、PWA漸進式網路應用設計、React、React Native、Angular、Redux、Redux-saga、Bootstrap、Materialize</li><li>資料庫：MSSQL、Firebase、MongoDB、MySQL</li><li>其他：Git、Unity3D</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>前端：HTML5、CSS3、JavaScript、RWD響應式網頁設計、PWA漸進式網路應用設計、React、React Native、Angular、Redux、Redux-saga、Bootstrap、Materialize</li><li class='fz-16'>資料庫：MSSQL、Firebase、MongoDB、MySQL</li><li class='fz-16'>其他：Git、Unity3D</li></ul>",
           "skillStyle": "none"
         },
         {
@@ -315,7 +315,7 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238610473889903/1102595307281326200/team7_member2_photo.jpg",
           "position": "遊戲程式",
           "contact": [{ "type": "email", "link": "lincofe@gmail.com" }],
-          "skill": "<ul class='fz-16'><li>前端：HTML5、CSS3、JavaScript、RWD響應式網頁設計、PWA漸進式網路應用設計、React、React Native、Api串接、Firebase使用</li><li>程式語言：C++、C#、Python</li><li>遊戲設計：Unity2D / 3D、OpenGL</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>前端：HTML5、CSS3、JavaScript、RWD響應式網頁設計、PWA漸進式網路應用設計、React、React Native、Api串接、Firebase使用</li><li class='fz-16'>程式語言：C++、C#、Python</li><li class='fz-16'>遊戲設計：Unity2D / 3D、OpenGL</li></ul>",
           "skillStyle": "none"
         },
         {
@@ -333,7 +333,7 @@
               ]
             }
           ],
-          "skill": "<ul class='fz-16'><li>前端：Vue、React、React Native、Node.js、MongoDB</li><li>設計/其他：Figma、Blender、After Effects</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>前端：Vue、React、React Native、Node.js、MongoDB</li><li class='fz-16'>設計/其他：Figma、Blender、After Effects</li></ul>",
           "skillStyle": "none"
         },
         {
@@ -341,7 +341,7 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238610473889903/1102824319496753312/team7_member4_photo.png",
           "position": "角色建模、動畫",
           "contact": [{ "type": "email", "link": "jahy22244424@gmail.com" }],
-          "skill": "<ul class='fz-16'><li>遊戲開發：<ul class='fz-16'><li>建模：Blender, 3ds Max, Maya</li><li>3D動畫：Blender</li><li>物件功能：Unity</li></ul></li><li>繪圖設計：Illustrator、PhotoShop</li><li>影音後製：Premiere、After Effects</li></ul>",
+          "skill": "<ul class='fz-16'><li class='fz-16'>遊戲開發：<ul class='fz-16'><li class='fz-16'>建模：Blender, 3ds Max, Maya</li><li class='fz-16'>3D動畫：Blender</li><li class='fz-16'>物件功能：Unity</li></ul></li><li class='fz-16'>繪圖設計：Illustrator、PhotoShop</li><li class='fz-16'>影音後製：Premiere、After Effects</li></ul>",
           "skillStyle": "none"
         }
       ],
