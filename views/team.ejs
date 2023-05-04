@@ -111,8 +111,10 @@
               </p>
               <hr class="hr" />
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-flex">
-                <p class="d-inline text-nowrap mb-0">負責項目：</p>
-                <p class="d-inline mb-0"><%= project.members[i].position %></p>
+                <p class="d-inline text-nowrap mb-0 fz-16">負責項目：</p>
+                <p class="d-inline mb-0 fz-16">
+                  <%= project.members[i].position %>
+                </p>
               </div>
               <div
                 class="fz-16 ps-2 ps-md-0 lh-lg pb-2 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
@@ -130,14 +132,14 @@
                   project.members[i].contact.length != 0) { %><% for(let j=0; j
                   < project.members[i].contact.length; j++){ %> <%
                   if(project.members[i].contact[j].type == "email") { %>
-                  <li>
+                  <li class="fz-16">
                     <p class="d-inline fz-16">信箱：</p>
                     <p class="d-inline fz-16">
                       <%=project.members[i].contact[j].link %> <% } else if
                       (project.members[i].contact[j].type == "tel") { %>
                     </p>
                   </li>
-                  <li>
+                  <li class="fz-16">
                     <p class="d-inline fz-16">電話：</p>
                     <p class="d-inline fz-16">
                       <%= project.members[i].contact[j].link %>
@@ -145,7 +147,7 @@
                   </li>
                   <% } else if (project.members[i].contact[j].type == "web") {
                   %> <% if (project.members[i].contact[j].link.length != 0) {%>
-                  <li>
+                  <li class="fz-16">
                     <p class="d-inline fz-16">網站：</p>
                     <% for(let k=0; k <
                     project.members[i].contact[j].link.length; k++){ %><%
