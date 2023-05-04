@@ -35,7 +35,7 @@
                 <div class="carousel-item active">
                   <img
                     class="img-fluid bg-light"
-                    src="<%=project.preview[i]%>"
+                    src="<%- project.preview[i]%>"
                     alt="Slide <%=i+1%>"
                   />
                 </div>
@@ -43,7 +43,7 @@
                 <div class="carousel-item">
                   <img
                     class="img-fluid bg-light"
-                    src="<%=project.preview[i]%>"
+                    src="<%- project.preview[i]%>"
                     alt="Slide <%=i+1%>"
                   />
                 </div>
@@ -54,17 +54,17 @@
           <div class="col-xl-4 pt-2 justify-content-between d-flex flex-column">
             <div class="d-block pb-4">
               <div class="d-block">
-                <p class="fz-26 fw-bold pt-2"><%= project.name %></p>
+                <p class="fz-26 fw-bold pt-2"><%- project.name %></p>
                 <p class="lh-lg">
-                  作品簡介：<br />&emsp;&emsp;<%= project.introduction %>
+                  作品簡介：<br />&emsp;&emsp;<%- project.introduction %>
                 </p>
                 <div class="d-block">
                   <p class="lh-lg">
                     組員：<% for(let i=0; i< project.members.length; i++){ %><%
-                    if(i==project.members.length-1){ %><%=
-                    project.members[i].name %><% } else { %><%=
+                    if(i==project.members.length-1){ %><%-
+                    project.members[i].name %><% } else { %><%-
                     project.members[i].name %>, <%}%><% } %><br />
-                    指導老師：<%= project.instructor %>
+                    指導老師：<%- project.instructor %>
                   </p>
                 </div>
               </div>
@@ -75,7 +75,7 @@
               <% for(let i=0; i < project.social.length; i++){ %> <% if
               (project.social[i].type == "ig") { %>
               <a
-                href="<%= project.social[i].link %>"
+                href="<%- project.social[i].link %>"
                 target="_blank"
                 rel="instagram"
                 aria-label="Instagram"
@@ -99,7 +99,7 @@
             <div class="wz-160">
               <img
                 class="img-fluid"
-                src="<%= project.members[i].photo %>"
+                src="<%- project.members[i].photo %>"
                 alt="picture"
               />
             </div>
@@ -107,7 +107,7 @@
           <div class="col-xl-4 col-md-8 pb-md-5 pb-2 pt-2 pt-sm-0">
             <div class="d-block">
               <p class="fz-26 text-center text-md-start">
-                <%= project.members[i].name %>
+                <%- project.members[i].name %>
               </p>
               <hr class="hr" />
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-inline-flex w-100">
@@ -115,53 +115,57 @@
                   <p class="text-nowrap mb-0 fz-16">負責項目：</p>
                 </div>
                 <div class="w-100">
-                  <p class="mb-0 fz-16"><%= project.members[i].position %></p>
+                  <p class="mb-0 fz-16"><%- project.members[i].position %></p>
                 </div>
               </div>
               <div
                 class="fz-16 ps-2 ps-md-0 lh-lg pb-2 w-100 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
               >
-                <p class="text-nowrap mb-0 fz-16">個人專長：</p>
-                <% if( project.members[i].skill != null &&
-                project.members[i].skillStyle != null) { %> <%-
-                project.members[i].skill.replace(/\n/g, '\<br />') %> <% } else
-                if(project.members[i].skill != null) { %>
-                <p class="mb-0 fz-16">
-                  <%- project.members[i].skill.replace(/\n/g, '\<br />') %>
-                </p>
-                <% } %>
+                <div>
+                  <p class="text-nowrap mb-0 fz-16">個人專長：</p>
+                </div>
+                <div class="w-100">
+                  <% if( project.members[i].skill != null &&
+                  project.members[i].skillStyle != null) { %> <%-
+                  project.members[i].skill.replace(/\n/g, '\<br />') %> <% }
+                  else if(project.members[i].skill != null) { %>
+                  <p class="mb-0 fz-16">
+                    <%- project.members[i].skill.replace(/\n/g, '\<br />') %>
+                  </p>
+                  <% } %>
+                </div>
               </div>
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 w-100">
-                <p class="d-inline text-nowrap mb-0 fz-16">聯絡方式：</p>
+                <p class="text-nowrap mb-0 fz-16">聯絡方式：</p>
                 <% if( project.members[i].contact != null) { %><% if(
                 project.members[i].contact.length != 0) { %>
-                <ul class="fz-16 w-100">
+                <ul class="fz-16 w-100 d-block">
                   <% for(let j=0; j < project.members[i].contact.length; j++){
                   %> <% if(project.members[i].contact[j].type == "email") {%>
                   <li class="fz-16">
-                    <p class="d-inline fz-16">信箱：</p>
+                    <p class="d-inline fz-16 text-nowrap">信箱：</p>
                     <p class="d-inline fz-16">
-                      <%=project.members[i].contact[j].link %>
+                      <%- project.members[i].contact[j].link %>
                     </p>
                   </li>
                   <% } else if (project.members[i].contact[j].type == "tel") {%>
                   <li class="fz-16">
-                    <p class="d-inline fz-16">電話：</p>
+                    <p class="d-inline fz-16 text-nowrap">電話：</p>
                     <p class="d-inline fz-16">
-                      <%= project.members[i].contact[j].link %>
+                      <%- project.members[i].contact[j].link %>
                     </p>
                   </li>
                   <% } else if (project.members[i].contact[j].type == "web") {%>
                   <% if (project.members[i].contact[j].link.length != 0) {%>
                   <li class="fz-16">
-                    <p class="d-inline fz-16">網站：</p>
+                    <p class="d-inline fz-16 text-nowrap">網站：</p>
                     <% for(let k=0; k <
                     project.members[i].contact[j].link.length; k++){%> <%
                     if(project.members[i].contact[j].link[k].type == "personal")
                     {%>
                     <a
                       class="contact-link"
-                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      href="<%- project.members[i].contact[j].link[k].link %>"
                       target="_blank"
                       rel="personal website"
                       aria-label="Personal Website"
@@ -171,7 +175,7 @@
                     if(project.members[i].contact[j].link[k].type=="fb"){%>
                     <a
                       class="contact-link"
-                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      href="<%- project.members[i].contact[j].link[k].link %>"
                       target="_blank"
                       rel="facebook"
                       aria-label="Facebook"
@@ -181,7 +185,7 @@
                     if(project.members[i].contact[j].link[k].type=="ig"){%>
                     <a
                       class="contact-link"
-                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      href="<%- project.members[i].contact[j].link[k].link %>"
                       target="_blank"
                       rel="instagram"
                       aria-label="Instagram"
@@ -191,7 +195,7 @@
                     if(project.members[i].contact[j].link[k].type=="lnkd"){%>
                     <a
                       class="contact-link"
-                      href="<%= project.members[i].contact[j].link[k].link %>"
+                      href="<%- project.members[i].contact[j].link[k].link %>"
                       target="_blank"
                       rel="linkedin"
                       aria-label="Linkedin"
