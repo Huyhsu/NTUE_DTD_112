@@ -110,23 +110,23 @@
                 <%= project.members[i].name %>
               </p>
               <hr class="hr" />
-              <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-flex">
-                <p class="d-inline text-nowrap mb-0 fz-16">負責項目：</p>
-                <p class="d-inline mb-0 fz-16">
-                  <%= project.members[i].position %>
-                </p>
+              <div
+                class="fz-16 ps-2 ps-md-0 lh-lg pb-2 d-flex justify-content-start"
+              >
+                <p class="text-nowrap mb-0 fz-16">負責項目：</p>
+                <p class="mb-0 fz-16"><%= project.members[i].position %></p>
               </div>
               <div
-                class="fz-16 ps-2 ps-md-0 lh-lg pb-2 <%- project.members[i].skillStyle == null ? 'd-flex' : 'd-block' %>"
+                class="fz-16 ps-2 ps-md-0 lh-lg pb-2 <%- project.members[i].skillStyle == null ? 'd-flex justify-content-start' : 'd-block' %>"
               >
-                <p class="d-inline text-nowrap mb-0 fz-16">個人專長：</p>
-                <p class="d-inline mb-0 fz-16">
+                <p class="d--block text-nowrap mb-0 fz-16">個人專長：</p>
+                <p class="d--block mb-0 fz-16">
                   <% if( project.members[i].skill != null) { %><%-
                   project.members[i].skill.replace(/\n/g, '\<br />') %> <% } %>
                 </p>
               </div>
               <div class="fz-16 ps-2 ps-md-0 lh-lg pb-2">
-                <p class="d-inline text-nowrap mb-0 fz-16">聯絡方式：</p>
+                <p class="d- text-nowrap mb-0 fz-16">聯絡方式：</p>
                 <ul class="fz-16">
                   <% if( project.members[i].contact != null) { %><% if(
                   project.members[i].contact.length != 0) { %><% for(let j=0; j
