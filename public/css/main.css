@@ -12,6 +12,10 @@ ul {
   margin-bottom: 0;
 }
 
+li {
+  font-size: 16px;
+}
+
 a {
   cursor: pointer;
   text-decoration: none;

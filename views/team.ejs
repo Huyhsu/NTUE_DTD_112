@@ -142,14 +142,14 @@
                 <ul class="fz-16 w-100 d-block">
                   <% for(let j=0; j < project.members[i].contact.length; j++){
                   %> <% if(project.members[i].contact[j].type == "email") {%>
-                  <li class="fz-16">
+                  <li class="fz-16 w-100">
                     <p class="d-inline fz-16 text-nowrap">信箱：</p>
                     <p class="d-inline fz-16">
                       <%- project.members[i].contact[j].link %>
                     </p>
                   </li>
                   <% } else if (project.members[i].contact[j].type == "tel") {%>
-                  <li class="fz-16">
+                  <li class="fz-16 w-100">
                     <p class="d-inline fz-16 text-nowrap">電話：</p>
                     <p class="d-inline fz-16">
                       <%- project.members[i].contact[j].link %>
@@ -157,7 +157,7 @@
                   </li>
                   <% } else if (project.members[i].contact[j].type == "web") {%>
                   <% if (project.members[i].contact[j].link.length != 0) {%>
-                  <li class="fz-16">
+                  <li class="fz-16 w-100">
                     <p class="d-inline fz-16 text-nowrap">網站：</p>
                     <% for(let k=0; k <
                     project.members[i].contact[j].link.length; k++){%> <%
