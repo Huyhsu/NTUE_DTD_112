@@ -31,6 +31,40 @@ a{
   text-decoration: none;
 }
 
+// Carousel Modal
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 80vw;
+  max-width: none !important;
+  // max-height: none !important;
+}
+
+.modal-content {
+  height: auto;
+  width: auto;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+// .modal-body {
+//   // display: flex;
+//   // align-items: center;
+//   // justify-content: center;
+//   // height: 100vh;
+//   // width: 100vw;
+//   // max-width: none !important;
+// }
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 // a:hover{
 //   color: #5c67a2 !important;
 // }
