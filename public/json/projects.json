@@ -46,6 +46,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "the_neighbors.animationteam",
           "link": "https://www.instagram.com/the_neighbors.animationteam/"
         }
       ]
@@ -98,6 +99,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "poker_wizard_championship",
           "link": "https://www.instagram.com/poker_wizard_championship/"
         }
       ]
@@ -106,12 +108,12 @@
   {
     "//_comment": "Team 04 ======================================================================================= Team 04",
     "team": "team4",
-    "projectName": "L00KER 錄刻爾",
+    "projectName": "LOOKER 錄刻爾",
     "projectIntro": "多媒體互動式企劃",
     "projectCover": "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384373526558/team4_preview_1.jpg",
     "type": "plan",
     "projectDetails": {
-      "name": "L00KER 錄刻爾",
+      "name": "LOOKER 錄刻爾",
       "introduction": "角色IP經營。我們創立虛擬角色與其世界觀，建築一個打破封閉思想、推翻傳統印象的無性別平等社會。透過instagarm等媒體社群與人互動，呈現虛實融合的互動體驗。",
       "members": [
         {
@@ -123,7 +125,7 @@
         },
         {
           "name": "洪映佳",
-          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103545916411093002/team4_member2_photo.jpg",
+          "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103981415231651880/team4_member2_photo.jpg",
           "position": "漫畫繪製、貼圖繪製、明信片繪製",
           "contact": [{ "type": "email", "link": "elle28450744@gmail.com" }],
           "skill": "電腦繪圖(Clip Studio Paint、Adobe Illiustrator)、Figma"
@@ -175,6 +177,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "im_lumi_401",
           "link": "https://www.instagram.com/im_lumi_401/"
         }
       ]
@@ -276,6 +279,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "animation_xi_112",
           "link": "https://www.instagram.com/animation_xi_112/"
         }
       ]
@@ -415,6 +419,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "chitta_exorcist",
           "link": "https://www.instagram.com/chitta_exorcist/"
         }
       ]
@@ -473,6 +478,7 @@
       "social": [
         {
           "type": "ig",
+          "tag": "quartet_of_appoggiatura",
           "link": "https://www.instagram.com/quartet_of_appoggiatura/"
         }
       ]

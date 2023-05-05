@@ -75,12 +75,14 @@
               <% for(let i=0; i < project.social.length; i++){ %> <% if
               (project.social[i].type == "ig") { %>
               <a
+                class="team-social-link d-flex justify-content-end align-items-center"
                 href="<%- project.social[i].link %>"
                 target="_blank"
                 rel="instagram"
                 aria-label="Instagram"
               >
-                <i class="fa-brands fa-instagram fz-26 team-social-link"></i>
+                <i class="fa-brands fa-instagram fz-26 pe-2"></i>
+                <%- project.social[i].tag %>
               </a>
               <% } %> <% } %>
             </div>
