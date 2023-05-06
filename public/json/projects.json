@@ -119,9 +119,9 @@
         {
           "name": "陳昱潔",
           "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103578851663159306/team4_member1_photo.jpg",
-          "position": "3D模型、組內財務管理、figma模擬網站架設",
+          "position": "3D模型建模、組內財務管理、Figma模擬網站架設",
           "contact": [{ "type": "email", "link": "chen10250089@gmail.com" }],
-          "skill": ""
+          "skill": "Rhino、Sketch up、Figma"
         },
         {
           "name": "洪映佳",
@@ -217,14 +217,10 @@
           "photo": "https://cdn.discordapp.com/attachments/1102238533697159329/1102531588618719242/team5_member2_photo.png",
           "position": "網頁前端工程架設、作品角色演出",
           "contact": [
-            { "type": "email", "link": "olivia891031@gmail.com" },
+            { "type": "email", "link": "yslin1031@gmail.com" },
             {
               "type": "web",
               "link": [
-                {
-                  "type": "fb",
-                  "link": "https://www.facebook.com/profile.php?id=100001007550858"
-                },
                 {
                   "type": "lnkd",
                   "link": "https://www.linkedin.com/in/%E6%B8%9D%E7%8F%8A-%E6%9E%97-345a1a1b1/"
