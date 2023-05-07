@@ -110,7 +110,7 @@
     "team": "team4",
     "projectName": "LOOKER 錄刻爾",
     "projectIntro": "多媒體互動式企劃",
-    "projectCover": "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384373526558/team4_preview_1.jpg",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238492962062358/1104578498212929678/team4_cover.jpg",
     "type": "plan",
     "projectDetails": {
       "name": "LOOKER 錄刻爾",
@@ -119,7 +119,7 @@
         {
           "name": "陳昱潔",
           "photo": "https://cdn.discordapp.com/attachments/1102238492962062358/1103578851663159306/team4_member1_photo.jpg",
-          "position": "3D模型建模、組內財務管理、Figma模擬網站架設",
+          "position": "3D模型建模、組內財務管理、Figma模擬網站架設、週邊製作",
           "contact": [{ "type": "email", "link": "chen10250089@gmail.com" }],
           "skill": "Rhino、Sketch up、Figma"
         },
@@ -168,6 +168,7 @@
       ],
       "instructor": "盧姝如",
       "preview": [
+        "https://cdn.discordapp.com/attachments/1102238492962062358/1104578498212929678/team4_cover.jpg",
         "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384373526558/team4_preview_1.jpg",
         "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384620986428/team4_preview_2.jpg",
         "https://cdn.discordapp.com/attachments/1102238492962062358/1103275384889426000/team4_preview_3.jpg",
