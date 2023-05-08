@@ -189,7 +189,7 @@
     "team": "team5",
     "projectName": "FIELD",
     "projectIntro": "故事型網頁",
-    "projectCover": "https://cdn.discordapp.com/attachments/1102238533697159329/1102531591298887690/team5_cover.png",
+    "projectCover": "https://cdn.discordapp.com/attachments/1102238533697159329/1105015508278968382/team5_cover.png",
     "type": "website",
     "projectDetails": {
       "name": "FIELD",
@@ -234,6 +234,7 @@
       ],
       "instructor": "俞齊山",
       "preview": [
+        "https://cdn.discordapp.com/attachments/1102238533697159329/1102531591298887690/team5_cover.png",
         "https://cdn.discordapp.com/attachments/1102238533697159329/1102531589579231313/team5_preview_1.png",
         "https://cdn.discordapp.com/attachments/1102238533697159329/1102531589944127609/team5_preview_2.png",
         "https://cdn.discordapp.com/attachments/1102238533697159329/1102531590359355483/team5_preview_3.png",
